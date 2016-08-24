@@ -199,8 +199,9 @@ h2, h3, h4, h5, h6{
 .project-img-big{
     display: none;
     position: absolute;
-    top: -380px;
-    margin: 0 auto;
+    top: 40px;
+    left: 400px;
+    right: 50%;
 }
 
 .project-img-big-show{
