@@ -46,7 +46,7 @@ h2, h3, h4, h5, h6{
 }
 
 .main-navigation{
-    background: #fdfcfb;
+    background: #fefefe;
     box-shadow: 0 0 10px rgba(0,0,0,0.19);
 }
 
@@ -174,7 +174,7 @@ h2, h3, h4, h5, h6{
 }
 
 .footer-navigation{
-    background: rgba(253,252,251,0.5);
+    background: #fefefe;
     box-shadow: 0 0 10px rgba(0,0,0,0.19);
 }
 
@@ -221,4 +221,19 @@ h2, h3, h4, h5, h6{
 
 body .shadow-show{
     display: block;
+}
+
+.main-content{
+    background: #fefefe;
+    box-shadow: 0 0 10px rgba(0,0,0,0.19);
+    padding: 30px;
+
+}
+
+.content{
+    font-size: 16px;
+    line-height: 20px;
+    color: #585857;
+    text-align: justify;
+    text-indent: 30px;
 }
