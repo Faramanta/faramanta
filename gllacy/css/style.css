@@ -1146,6 +1146,7 @@ form[name="autorization"]{
     right: 15px;
 }
 
+
 .filter-select select:hover .popular-select::after{
     content: "";
     position: absolute;
