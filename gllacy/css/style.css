@@ -96,7 +96,7 @@ h2{
     text-decoration: none;
 }
 
-.main-navigation__link:hover::after{            
+.main-navigation__link:hover::after{
     opacity: 0;
 }
 
@@ -1146,25 +1146,6 @@ form[name="autorization"]{
     right: 15px;
 }
 
-
-.filter-select select:hover .popular-select::after{
-    content: "";
-    position: absolute;
-    display: block;
-    -moz-border-bottom-colors: none;
-    -moz-border-left-colors: none;
-    -moz-border-right-colors: none;
-    -moz-border-top-colors: none;
-    border-color: #000000 transparent transparent;
-    -o-border-image: none;
-    border-image: none;
-    border-style: solid;
-    border-width: 5px 4px 4px;
-    margin-top: -2px;
-    top: 50%;
-    right: 15px;
-}
-
 .filter-select select {
     display: block;
     padding: 8px 32px 7px 12px;
@@ -1204,6 +1185,24 @@ form[name="autorization"]{
     background: #ffffff;
     color: #323232;
 }
+.popular-select:hover::after {
+  content: "";
+  position: absolute;
+  display: block;
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #000000 transparent transparent;
+  -o-border-image: none;
+  border-image: none;
+  border-style: solid;
+  border-width: 5px 4px 4px;
+  margin-top: -2px;
+  top: 50%;
+  right: 15px;
+}
+
 
 .filter-price{
     float: left;
