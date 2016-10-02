@@ -6,6 +6,7 @@
 html{
     min-width: 960px;
     overflow-y: scroll;
+    height: 100%;
 }
 
 body{
@@ -14,6 +15,12 @@ body{
     font-size: 12px;
     line-height: 18px;
     color: #585857;
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    min-height: 100%;
 }
 
 img{
@@ -177,8 +184,12 @@ h2, h3, h4, h5, h6{
 }
 
 .footer{
+    height: 78px;
+    bottom: 0;
+    width: 100%;
     padding-top: 70px;
     padding-bottom: 40px;
+    position: absolute;
 }
 
 .footer-navigation{
@@ -233,11 +244,14 @@ body .shadow-show{
     display: block;
 }
 
+.main {
+    padding-bottom: 156px;
+}
+
 .main-content{
     background: #fefefe;
     box-shadow: 0 0 10px rgba(0,0,0,0.19);
-
-
+    padding: 15px;
 }
 
 .content{
@@ -246,5 +260,30 @@ body .shadow-show{
     color: #585857;
     text-align: justify;
     text-indent: 30px;
-    padding: 30px;
+    padding: 15px 15px 5px 15px;
+}
+
+.content_list {
+    padding: 15px 0 15px 0;
+    margin: 0;
+    list-style: none;
+}
+
+.content_item {
+    font-size: 16px;
+    color: #585857;
+    text-align: justify;
+    text-indent: 30px;
+    padding-bottom: 10px;
+}
+
+.container {
+    position: relative;
+    min-height: 100%;
+}
+
+.intensive {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 30px;
 }
