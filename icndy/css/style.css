@@ -1,0 +1,286 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    width: 100%;
+}
+
+body {
+    background: #ffffff;
+    font-family: "Proxima Nova", Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.3;
+    color: #ffffff;
+    max-width: 1700px;
+
+}
+
+img {
+    border: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+    font-size: 13px;
+    font-family: "Proxima Nova", Arial, sans-serif;
+}
+
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.header {
+    position: relative;
+    background: #000000 url("../img/header_bg.jpg") no-repeat;
+    padding-top: 42px;
+    margin-bottom: 82px;
+}
+
+.header:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    border-bottom: 3px solid #ffffff;
+    border-right: 3px solid #ffffff;
+    border-top: transparent;
+    border-left: transparent;
+    bottom: 82px;
+    left: 771px;
+    transform: rotate(45deg);
+}
+
+
+.container {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.header-menu {
+    float: right;
+    padding-top: 33px;
+}
+
+.header-menu__list {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header-menu__item {
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.header-menu__link {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 6px;
+    font-weight: 500;
+
+}
+
+.header-menu__link:hover {
+    color: #f84545;
+}
+
+.header-title {
+    text-align: center;
+    margin-top: 244px;
+    font-size: 57px;
+    letter-spacing: 35px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-bottom: 29px;
+}
+
+.header-content {
+    text-align: center;
+    letter-spacing: 11px;
+    color: #f84545;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 375px;
+}
+
+.catalog {
+    margin-bottom: 82px;
+}
+
+.img-catalog {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+.catalog__item-title-big {
+    position: absolute;
+    bottom: 42px;
+    left: 51px;
+}
+
+.catalog__item-title {
+    position: absolute;
+    bottom: 27px;
+    left: 39px;
+}
+
+.img__item-big {
+    margin-bottom: 22px;
+}
+
+.img__item {
+    margin-bottom: 25px;
+}
+
+.catalog-title-big {
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 24.3px;
+}
+
+.catalog-title {
+    font-size: 37px;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 16px;
+    line-height: 46px;
+}
+
+.img-big {
+    float: left;
+    margin-right: 55px;
+    background: url("../img/gourmet_bg.jpg");
+    width: 980px;
+    height: 775px;
+}
+
+.img-right {
+    margin-bottom: 55px;
+    width: 460px;
+    height: 360px;
+}
+
+.adidas {
+    background: url("../img/adidas_bg.jpg");
+}
+
+.carhartt {
+    background: url("../img/carhartt_bg.jpg");
+}
+
+.img-bottom {
+    margin-right: 55px;
+    width: 460px;
+    height: 580px;
+}
+
+.img-bottom:last-child {
+    margin-right: 0;
+}
+
+.deep {
+    background: url("../img/10deep_bg.jpg");
+}
+
+.palace {
+    background: url("../img/palace_bg.jpg");
+}
+
+.nike {
+    background: url("../img/nike_bg.jpg");
+}
+
+.insta-photo {
+    background: #000000 url("../img/insta_bg_dark.jpg") no-repeat center;
+    height: 850px;
+    text-align: center;
+}
+
+.insta-title {
+    font-size: 57px;
+    font-weight: lighter;
+    letter-spacing: 33px;
+    text-transform: uppercase;
+    padding-top: 350px;
+    margin-bottom: 30px;
+}
+
+.insta-content {
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 11px;
+    color: #f84545;
+    text-transform: uppercase;
+}
+
+.footer {
+    padding-top: 65px;
+    padding-bottom: 30px;
+    vertical-align: baseline;
+}
+
+.footer-menu {
+    float: left;
+}
+
+.footer-menu__list {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-menu__item {
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.footer-menu__link {
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 6.1px;
+    font-weight: 600;
+
+}
+
+.header-menu__link:hover {
+    color: #f84545;
+}
+
+.social-icon {
+    float: right;
+    display: inline-block;
+    width: 31px;
+    height: 31px;
+    background: url("../img/social.png") no-repeat;
+    margin-right: 30px;
+    margin-top: -8px;
+}
+
+.social-tw {
+    background-position: -10px -4px;
+}
+
+.social-fb {
+    background-position: -94px -3px;
+}
+
+.social-insta {
+    background-position: -53px -2px;
+}
