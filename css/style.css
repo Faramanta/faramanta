@@ -102,8 +102,8 @@ h2, h3, h4, h5, h6{
 
 .project-list{
     text-align: left;
-    margin-right: 30px;
-    margin-left: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .main_content{
@@ -116,7 +116,7 @@ h2, h3, h4, h5, h6{
 
 .project-item{
     display: inline-block;
-    margin-right: 26px;
+    margin-right: 20px;
     margin-bottom: 45px;
 }
 
