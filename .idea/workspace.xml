@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5ee243c-04f9-423c-88dc-3e8d5323d25d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktg/css/style.css" afterPath="$PROJECT_DIR$/ktg/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktg/index.html" afterPath="$PROJECT_DIR$/ktg/index.html" />
     </list>
@@ -24,32 +25,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ktg/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="331" column="0" lean-forward="true" selection-start-line="331" selection-start-column="0" selection-end-line="331" selection-end-column="0" />
+            <state relative-caret-position="679">
+              <caret line="306" column="0" lean-forward="true" selection-start-line="306" selection-start-column="0" selection-end-line="306" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ktg/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="31" column="28" lean-forward="false" selection-start-line="29" selection-start-column="15" selection-end-line="31" selection-end-column="28" />
+            <state relative-caret-position="548">
+              <caret line="78" column="49" lean-forward="false" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="49" />
               <folding>
                 <element signature="e#1212#1217#0" expanded="true" />
-                <element signature="e#3191#3196#0" expanded="true" />
-                <element signature="e#3267#3272#0" expanded="true" />
-                <element signature="e#4491#4496#0" expanded="true" />
-                <element signature="e#4832#4837#0" expanded="true" />
-                <element signature="e#5398#5403#0" expanded="true" />
-                <element signature="e#5866#5871#0" expanded="true" />
-                <element signature="e#5970#5975#0" expanded="true" />
-                <element signature="e#6415#6420#0" expanded="true" />
-                <element signature="e#20151#20157#0" expanded="true" />
+                <element signature="e#3288#3293#0" expanded="true" />
+                <element signature="e#3364#3369#0" expanded="true" />
+                <element signature="e#4588#4593#0" expanded="true" />
+                <element signature="e#4929#4934#0" expanded="true" />
+                <element signature="e#5495#5500#0" expanded="true" />
+                <element signature="e#5963#5968#0" expanded="true" />
+                <element signature="e#6067#6072#0" expanded="true" />
+                <element signature="e#6512#6517#0" expanded="true" />
+                <element signature="e#20248#20254#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,7 +75,6 @@
       <find>.vacansy__descr</find>
       <find>table-cellfle</find>
       <find>.footer-menu</find>
-      <find>main-action__cell</find>
       <find>news-block</find>
       <find>vacansy__item</find>
       <find>flex</find>
@@ -84,8 +84,9 @@
       <find>.news__btn</find>
       <find>helvet</find>
       <find>.main-top__video</find>
-      <find>новосте</find>
       <find>.news-block</find>
+      <find>новосте</find>
+      <find>main-action__cell</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -107,8 +108,8 @@
         <option value="$PROJECT_DIR$/ktg/js/jquery-3.2.1.min.js" />
         <option value="$PROJECT_DIR$/ktg/css/material.indigo-pink.min.css" />
         <option value="$PROJECT_DIR$/ktg/js/material.min.js" />
-        <option value="$PROJECT_DIR$/ktg/css/style.css" />
         <option value="$PROJECT_DIR$/ktg/index.html" />
+        <option value="$PROJECT_DIR$/ktg/css/style.css" />
       </list>
     </option>
   </component>
@@ -321,12 +322,12 @@
       <option name="presentableId" value="Default" />
       <updated>1471694436865</updated>
       <workItem from="1496836929510" duration="6723000" />
-      <workItem from="1496853949601" duration="20613000" />
+      <workItem from="1496853949601" duration="21070000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27336000" />
+    <option name="totallyTimeSpent" value="27793000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -690,30 +691,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ktg/css/style.css">
+    <entry file="file://$PROJECT_DIR$/ktg/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="331" column="0" lean-forward="true" selection-start-line="331" selection-start-column="0" selection-end-line="331" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="548">
+          <caret line="78" column="49" lean-forward="false" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="49" />
+          <folding>
+            <element signature="e#1212#1217#0" expanded="true" />
+            <element signature="e#3288#3293#0" expanded="true" />
+            <element signature="e#3364#3369#0" expanded="true" />
+            <element signature="e#4588#4593#0" expanded="true" />
+            <element signature="e#4929#4934#0" expanded="true" />
+            <element signature="e#5495#5500#0" expanded="true" />
+            <element signature="e#5963#5968#0" expanded="true" />
+            <element signature="e#6067#6072#0" expanded="true" />
+            <element signature="e#6512#6517#0" expanded="true" />
+            <element signature="e#20248#20254#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ktg/index.html">
+    <entry file="file://$PROJECT_DIR$/ktg/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="31" column="28" lean-forward="false" selection-start-line="29" selection-start-column="15" selection-end-line="31" selection-end-column="28" />
-          <folding>
-            <element signature="e#1212#1217#0" expanded="true" />
-            <element signature="e#3191#3196#0" expanded="true" />
-            <element signature="e#3267#3272#0" expanded="true" />
-            <element signature="e#4491#4496#0" expanded="true" />
-            <element signature="e#4832#4837#0" expanded="true" />
-            <element signature="e#5398#5403#0" expanded="true" />
-            <element signature="e#5866#5871#0" expanded="true" />
-            <element signature="e#5970#5975#0" expanded="true" />
-            <element signature="e#6415#6420#0" expanded="true" />
-            <element signature="e#20151#20157#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="679">
+          <caret line="306" column="0" lean-forward="true" selection-start-line="306" selection-start-column="0" selection-end-line="306" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
