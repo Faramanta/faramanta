@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    overflow-y: scroll;
+    height: 100%;
+}
+
+body{
+    background: #f3f4f6;
+    color: #0b2050;
+    height: 100%;
+}
+
+.container {
+    background: #fff;
+    position: relative;
+    min-height: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+img{
+    border: none;
+}
+
+h2, h3, h4, h5, h6{
+    color: #2e2c2d;
+    font-size: 13px;
+    font-family: "Myriad Pro", Arial, Helvetica, sans-serif;
+}
+
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.header {
+    padding: 30px 55px ;
+}
+
+.header__auth {
+    position: absolute;
+    display: block;
+    right: 55px;
+    top: 30px;
+    color: #2e2c2d;
+    padding: 10px;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+}
+
+.header__auth-icon,
+.header__auth-username {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header__auth-icon {
+    margin-right: 10px;
+}
+
+.header__auth-username {
+    color: #2e2c2d;
+    font-size:16px;
+}
+
+.main-top__video {
+    position: relative;
+    font-size:0;
+}
+
+.video__cnt {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
+.main-top__ttl {
+    font-size: 60px;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.main-top__cnt {
+    font-size: 22px;
+    color: #fff;
+    width: 445px;
+}
+
+.main-menu__list {
+    display: table;
+    width: 100%;
+}
+
+.main-menu__item {
+    display: table-cell;
+    width: 20%;
+    vertical-align: top;
+    font-size: 0;
+    text-align: center;
+    padding: 20px 0;
+    text-decoration: none;
+    opacity: 0.9;
+}
+
+.main-menu__item:hover {
+    opacity: 1;
+}
+
+.main-menu__cnt {
+    position: relative;
+    display: block;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 10px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.about {
+     background-color: #a077d3;
+ }
+
+.product {
+    background-color: #6387d8;
+}
+
+.tecnology {
+    background-color: #60c0cb;
+}
+
+.job {
+    background-color: #9bcd45;
+}
+
+.contact {
+    background-color: #f19d3b;
+}

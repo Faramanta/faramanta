@@ -4,144 +4,63 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
     <title>KT&G</title>
 
 </head>
 <body>
 <div class="container">
     <header class="header">
-        <nav class="main-navigation">
-            <div class="wrapper header-wrapper">
-                <ul class="main-navigation__list">
-                    <li class="main-navigation__item">
-                        <a href="about.html" class="main-navigation__link ">Обо мне</a>
-                    </li>
-                    <li class="main-navigation__item">
-                        <a href="" class="main-navigation__link active">Портфолио</a>
-                    </li>
-                    <li class="main-navigation__item">
-                        <a href="contacts.html" class="main-navigation__link">Контакты</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+        <div class="header__logo">
+            <img src="img/logo.png">
+        </div>
+        <a href="#" class="header__auth">
+            <img src="img/user.png" class="header__auth-icon">
+            <div class="header__auth-username">Личный кабинет</div>
+        </a>
     </header>
 
-    <main class="main">
-        <div class="wrapper main_wrapper">
-            <!--<p class="main_content">Welcome! This is Bright, a very clean Wordpress psd file theme-->
-                <!--That makes it easy to showcase your work</p>-->
-
-            <div class="project-list">
-
-                <!--Azure-->
-                <article class="project-item">
-                    <div class="project-container">
-                        <a href="http://faramanta.github.io/Azure/" target="_blank" class="project-name__link">
-                            <h2 class="project-name">Azure</h2>
-                        </a>
-                        <p class="project-details">Верстка, адаптивный дизайн</p>
-                        <div class="project-img">
-                            <a href="http://faramanta.github.io/Azure/" target="_blank"><img src='img/azure_small.jpg' width="218" height="173" class="project-item-img"></a>
-                            <a href="http://faramanta.github.io/Azure/" target="_blank" class="project-zoom"></a>
-                        </div>
-                        <a href="https://github.com/Faramanta/Azure" target="_blank" class="git">Github</a>
-                    </div>
-                    <img src="img/azure.jpg" alt="" class="project-img-big">
-                </article>
-
-                <!--Foinni-->
-                <article class="project-item">
-                    <div class="project-container">
-                        <a href="http://faramanta.github.io/foinni/" target="_blank" class="project-name__link">
-                            <h2 class="project-name">Foinni</h2>
-                        </a>
-                        <p class="project-details">Верстка</p>
-                        <div class="project-img">
-                            <a href="http://faramanta.github.io/foinni/" target="_blank"><img src='img/foinni_small.jpg' width="218" height="173" class="project-item-img"></a>
-                            <a href="http://faramanta.github.io/foinni/" target="_blank" class="project-zoom"></a>
-                        </div>
-                        <a href="https://github.com/Faramanta/foinni" target="_blank" class="git">Github</a>
-                    </div>
-                    <img src="img/foinni.jpg" alt="" class="project-img-big">
-                </article>
-
-                <!--ICNDY-->
-                <article class="project-item">
-                    <div class="project-container">
-                        <a href="http://faramanta.github.io/icndy/" target="_blank" class="project-name__link">
-                            <h2 class="project-name">ICNDY</h2>
-                        </a>
-                        <p class="project-details">Верстка</p>
-                        <div class="project-img">
-                            <a href="http://faramanta.github.io/icndy/" target="_blank"><img src='img/icndy_small.jpg' width="218" height="173" class="project-item-img"></a>
-                            <a href="http://faramanta.github.io/icndy/" target="_blank" class="project-zoom"></a>
-                        </div>
-                        <a href="https://github.com/Faramanta/icndy" target="_blank" class="git">Github</a>
-                    </div>
-                    <img src="img/icndy.jpg" alt="" class="project-img-big">
-                </article>
-
-                <!--Gllacy-->
-                <article class="project-item">
-                    <div class="project-container">
-                        <a href="http://faramanta.github.io/gllacy/" target="_blank" class="project-name__link">
-                            <h2 class="project-name">Gllacy</h2>
-                        </a>
-                        <p class="project-details">Верстка</p>
-
-                        <div class="project-img">
-                            <a href="http://faramanta.github.io/gllacy/" target="_blank"><img src='img/gllacy_small.jpg' width="218" height="173" class="project-item-img"></a>
-                            <a href="http://faramanta.github.io/gllacy/" target="_blank" class="project-zoom"></a>
-                        </div>
-                        <a href="https://github.com/Faramanta/70920-gllacy" target="_blank" class="git">Github</a>
-                    </div>
-                    <img src="img/gllacy.jpg" alt="" class="project-img-big">
-                </article>
-
-                <!--Gllacy-adaptive-->
-                <article class="project-item">
-                    <div class="project-container">
-                        <a href="http://faramanta.github.io/gllacy_adaptive/" target="_blank" class="project-name__link">
-                            <h2 class="project-name">Gllacy_adaptive</h2>
-                        </a>
-                        <p class="project-details">Верстка, адаптивный дизайн</p>
-                        <div class="project-img">
-                            <a href="http://faramanta.github.io/gllacy_adaptive/" target="_blank"><img src='img/gllacy_small.jpg' width="218" height="173" class="project-item-img"></a>
-                            <a href="http://faramanta.github.io/gllacy_adaptive/" target="_blank" class="project-zoom"></a>
-                        </div>
-                        <a href="https://github.com/Faramanta/Gllacy-adaptive" target="_blank" class="git">Github</a>
-                    </div>
-                    <img src="img/gllacy.jpg" alt="" class="project-img-big">
-                </article>
-
-
-
+    <div class="main">
+        <div class="main-section main-top">
+            <div class="main-top__video">
+                <img src="img/video.jpg">
+                <div class="video__cnt">
+                    <div class="main-top__ttl">Путь к успеху с KT&amp;G</div>
+                    <div class="main-top__cnt">Профессионалы, стремящиеся к успеху, выбирают лидера индустрии.</div>
+                </div>
             </div>
         </div>
-    </main>
+
+        <div class="main-menu">
+            <div class="main-menu__list">
+                <a href="#" class="main-menu__item about">
+                    <img src="img/about.png">
+                    <div class="main-menu__cnt ">О компании</div>
+                </a>
+                <a href="#" class="main-menu__item product">
+                    <img src="img/pack.png">
+                    <div class="main-menu__cnt ">Наша продукция</div>
+                </a>
+                <a href="#" class="main-menu__item tecnology">
+                    <img src="img/tech.png">
+                    <div class="main-menu__cnt ">Технологии</div>
+                </a>
+                <a href="#" class="main-menu__item job">
+                    <img src="img/job.png">
+                    <div class="main-menu__cnt ">Работайте с нами</div>
+                </a>
+                <a href="#" class="main-menu__item contact">
+                    <img src="img/mark.png">
+                    <div class="main-menu__cnt ">Контакты</div>
+                </a>
+            </div>
+        </div>
+
+    </div>
 
     <footer class="footer">
-        <div class="wrapper">
-            <nav class="footer-navigation">
-                <div class="wrapper footer-wrapper">
-                    <ul class="footer-navigation__list">
-                        <li class="footer-navigation__item">
-                            <a href="about.html" class="footer-navigation__link">Обо мне</a>
-                        </li>
-                        <li class="footer-navigation__item">
-                            <a href="#" class="footer-navigation__link">Портфолио</a>
-                        </li>
-                        <li class="footer-navigation__item">
-                            <a href="contacts.html" class="footer-navigation__link">Контакты</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+
     </footer>
 </div>
 <div class="shadow"></div>
-<script src="js/big_pictire_project.js" type="text/javascript"></script>
-
 </body>
