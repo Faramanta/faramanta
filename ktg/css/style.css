@@ -419,11 +419,11 @@ ul {
 .vacansy__close:after {
     position: absolute;
     content: '';
-    width: 15px;
-    height: 15px;
+    width: 16px;
+    height: 16px;
     top: 28px;
     right: 27px;
-    background: url("../img/sprite.png") -55px -2px;
+    background: url("../img/clear.png") -4px -3px;
     transition: all 0.3s;
 }
 
@@ -588,6 +588,53 @@ ul {
     border-radius: 0;
 }
 
+.burger {
+    display: none;
+    position: absolute;
+    height: 39px;
+    width: 57px;
+    right: 45px;
+    top: 29px;
+
+    background: url("../img/burger.png");
+}
+
+.header-menu {
+    display: none;
+    position: absolute;
+    top: 102px;
+    right: 0px;
+    left: 0px;
+    z-index: 1;
+    background: #fff;
+}
+
+.header-menu__item {
+    display: block;
+    padding: 20px 20px 20px 60px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 36px;
+}
+
+/*.header-menu__cnt {*/
+    /*display: inline-block;*/
+    /*vertical-align: middle;*/
+/*}*/
+
+.header-menu__cnt {
+    position: relative;
+}
+
+.header-menu__cnt:before {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 49px;
+    top: 0;
+    left: 0;
+    background: url("../img/menu-sprite-small.png");
+}
 
 .mb30 {
     margin-bottom:30px;
@@ -595,4 +642,36 @@ ul {
 
 .hidden {
     display: none;
+}
+
+@media screen and (max-width: 1023px) {
+    .top-header {
+        padding: 30px 45px;
+    }
+    .container {
+        padding: 50px;
+    }
+    .main__ttl {
+        font-size: 45px;
+    }
+
+    .main-menu__list,
+    .header__auth {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .main__ttl {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
 }
