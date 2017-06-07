@@ -36,6 +36,8 @@ body{
     background: #fff;
     color: #0b2050;
     height: 100%;
+    line-height: normal;
+    font-weight: normal;
 }
 
 .wrapper {
@@ -56,6 +58,12 @@ h2, h3, h4, h5, h6{
     font-family: 'RobotoSlab', serif;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 .clearfix:after {
     content: " ";
     display: table;
@@ -66,6 +74,10 @@ h2, h3, h4, h5, h6{
 }
 
 .header {
+
+}
+
+.top-header {
     padding: 30px 55px ;
 }
 
@@ -106,6 +118,10 @@ h2, h3, h4, h5, h6{
 .main-top__video {
     position: relative;
     font-size:0;
+    height: calc(100vh - 225px);
+    overflow: hidden;
+    background: #000 url("../img/video.jpg") no-repeat center;
+    background-size: cover;
 }
 
 .video__cnt {
@@ -130,6 +146,7 @@ h2, h3, h4, h5, h6{
     font-size: 22px;
     color: #fff;
     width: 445px;
+    font-family: 'SeroPro', sans-serif;
 }
 
 .main-menu__list {
@@ -191,16 +208,24 @@ h2, h3, h4, h5, h6{
     background: #ffffff;
 }
 
+.main-action__link {
+    text-decoration: none;
+}
+
 .main-action__tbl {
     display: table;
     width: 100%;
 }
+
+
 
 .main-action__cell {
     display: table-cell;
     vertical-align: top;
     width: 50%;
     height: 380px;
+    min-height: 380px;
+    box-sizing: border-box;
 }
 
 .main-action__cell:first-child {
@@ -209,12 +234,10 @@ h2, h3, h4, h5, h6{
     transition: all 0.3s;
 }
 
-.main-action__cell:first-child:hover {
-    background-size: 105%;
-}
+
 
 .main-action__cell:last-child {
-    padding: 40px 75px;
+    padding: 40px 75px 5px;
 }
 
 .main-action__mark {
@@ -232,30 +255,40 @@ h2, h3, h4, h5, h6{
     font-weight: bold;
     font-family: 'RobotoSlab', serif;
     margin-bottom: 10px;
+    color: #0b2050;
 }
 
 .main__cnt {
     font-size:18px;
     font-family: 'SeroPro', serif;
-
 }
 
-.main__link {
+.main__more {
     position: relative;
+    display: inline-block;
     font-family: 'SeroPro-Medium', serif;
     color: #0b2050;
     font-size: 18px;
     text-decoration: none;
 }
 
-.main__link:after {
+.main__more:after {
     position: absolute;
     content: '';
     width: 11px;
     height: 15px;
-    top: 1px;
+    top: 3px;
     right: -18px;
     background: url("../img/arrow.png") no-repeat;
+    transition: all 0.3s;
+}
+
+.main-action__link:hover .main__more:after {
+    right: -28px
+}
+
+.main-action__link:hover .main-action__cell:first-child {
+    background-size: 105%;
 }
 
 .main-news {
@@ -265,40 +298,35 @@ h2, h3, h4, h5, h6{
 }
 
 .news__tbl {
-    display: table;
+    /*display: table;*/
 }
 
 .news__container {
-    display: table-row;
+    display: flex;
+    justify-content: space-between;
 }
 
 .news-block {
-    display: table-cell;
+    display: block;
     vertical-align: top;
-    width: 20%;
-    padding: 10px 0 60px 0;
-    margin-bottom: 60px;
+    width: 27%;
+    padding: 10px 0 0px 0;
+    margin-bottom: 80px;
     text-align: left;
+    text-decoration: none;
+    color: #0b2050;
 }
-
-.news-block__separator {
-    display: table-cell;
-    width: 10%;
-}
-
-.news-block:last-child {
-    padding-right: 0;
-}
-
 
 .news__data {
     font-size: 14px;
     font-family: 'SeroPro-Light', serif;
     text-transform: uppercase;
-    color: #0b2050;
     margin-bottom: 15px;
 }
 
+.news-block:hover .main__more:after {
+    right: -28px
+}
 
 
 .news__ttl {
@@ -319,7 +347,7 @@ h2, h3, h4, h5, h6{
     color: #ffffff;
     font-size: 18px;
     font-family: 'SeroPro', sans-serif;
-    padding: 12px 60px;
+    padding: 0px 60px;
     text-decoration: none;
 }
 
@@ -330,7 +358,8 @@ h2, h3, h4, h5, h6{
 .vacansy__list {
     position: relative;
     display: block;
-    border: 1px solid #ced2dc;
+    border: 1px solid #dbdee5;
+    border-bottom: none;
     margin-top: 40px;
 }
 
@@ -340,7 +369,7 @@ h2, h3, h4, h5, h6{
     padding: 0px 30px;
     height: 74px;
     line-height: 74px;
-    border-bottom: 1px solid #ced2dc;
+    border-bottom: 1px solid #dbdee5;
 }
 
 .vacansy__ttl {
@@ -367,11 +396,18 @@ h2, h3, h4, h5, h6{
     height: 15px;
     top: 28px;
     right: 27px;
-    background: url("../img/sprite.png") -5px -3px;
+    background: url("../img/sprite.png") -55px -2px;
+    transition: all 0.3s;
+}
+
+.vacansy__close.clicked:after {
+    transform: rotate(45deg);
 }
 
 .vacansy__descr {
+    display: none;
     padding: 30px 50px 50px;
+    border-bottom: 1px solid #dbdee5;
 }
 
 .vacansy__cnt-block {
@@ -427,17 +463,109 @@ h2, h3, h4, h5, h6{
     border: 1px solid #b5bcca;
     color: #0b2050;
     font-family: 'SeroPro', sans-serif;
+}
 
+.footer {
+    background: #fafbfc;
+    border-top: 1px solid #e6e8ed;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    border-bottom:  1px solid #e6e8ed;
+    margin-bottom: 40px;
+}
+
+.footer-menu__ttl {
+    font-size: 13px;
+    font-family: 'RobotoSlab-Bold', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.footer-menu__link {
+    font-family: 'SeroPro-Light', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+    padding: 4px 0;
+    color: #0b2050;
+}
+
+.footer-menu__link:hover {
+    text-decoration: underline;
 }
 
 
+.footer-bot {
+    position: relative;
+}
 
+.footer-bot__logo {
+    margin-bottom: 20px;
+}
+.footer-bot__copyright {
+    font-size: 15px;
+    font-family: 'SeroPro-Light', sans-serif;
+}
 
+.footer-bot__social {
+    position: absolute;
+    display: inline-block;
+    top: 0px;
+    right: 0px;
+}
 
+.footer-bot__social-item {
+    display: inline-block;
+    margin-left: 10px;
+}
 
+.footer-bot__social-link {
+    display: block;
+    height: 25px;
+    width: 25px;
+    background: url(../img/sprite.png) no-repeat;
+}
 
+.social-fb {
+    background-position: -5px -26px;
+}
+
+.social-tw {
+    background-position: -45px -27px;
+}
+
+.mdl-button {
+    height: 47px;
+    line-height: 47px;
+    text-transform: none;
+    border-radius: 0;
+}
+
+.mdl-button--raised {
+    box-shadow: none;
+}
+.mdl-button--accent.mdl-button--accent.mdl-button--raised {
+    background: #60b5be;
+}
+
+.vacansy__list .mdl-button--accent.mdl-button--accent.mdl-button--raised {
+    background: #f19d3b;
+}
+
+.vacansy__list .mdl-button {
+    height: 55px;
+    border-radius: 0;
+}
 
 
 .mb30 {
     margin-bottom:30px;
+}
+
+.hidden {
+    display: none;
 }
