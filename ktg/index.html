@@ -2,15 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="Keywords" content="">
-    <meta name="Description" content="">
+    <title>KT&G</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/material.indigo-pink.min.css">
     <link rel="stylesheet" href="css/style.css">
-
-    <title>KT&G</title>
-
 </head>
 <body>
 <div class="wrapper">
@@ -40,12 +38,13 @@
             </div>
         </div>
 
-        <div class="main-section main-top">
+
+    </header>
+
+    <main class="main">
+        <section class="main-section main-top">
             <div class="main-top__video">
-                <img src="img/video.jpg" id="video">
-                <!--<video id="video"  preload="auto" loop="" data-autoplay="">-->
-                    <!--<source src="https://nikersen.github.io/esse/www/files/esse-index.mp4">-->
-                <!--</video>-->
+                <img src="img/video.jpg" class="main-top__img">
                 <div class="video__cnt">
                     <div class="main__ttl">Путь к успеху с KT&amp;G</div>
                     <div class="main-top__cnt">Профессионалы, стремящиеся к успеху, выбирают лидера индустрии.</div>
@@ -55,49 +54,54 @@
                 <div class="main__ttl">Путь к успеху с KT&amp;G</div>
                 <div class="main-top__cnt">Профессионалы, стремящиеся к успеху, выбирают лидера индустрии.</div>
             </div>
-        </div>
+        </section>
 
-        <div class="main-menu">
-            <div class="main-menu__list">
-                <a href="#" class="main-menu__item about">
-                    <img src="img/about.png">
-                    <div class="main-menu__cnt ">О компании</div>
-                </a>
-                <a href="products.html" class="main-menu__item product">
-                    <img src="img/pack.png">
-                    <div class="main-menu__cnt ">Наша продукция</div>
-                </a>
-                <a href="#" class="main-menu__item tecnology">
-                    <img src="img/tech.png">
-                    <div class="main-menu__cnt ">Технологии</div>
-                </a>
-                <a href="#" class="main-menu__item job">
-                    <img src="img/job.png">
-                    <div class="main-menu__cnt ">Работайте с нами</div>
-                </a>
-                <a href="#" class="main-menu__item contact">
-                    <img src="img/mark.png">
-                    <div class="main-menu__cnt ">Контакты</div>
-                </a>
-            </div>
-        </div>
-    </header>
+        <nav class="main-menu">
+            <ul class="main-menu__list">
+                <li class="main-menu__item">
+                    <a href="#" class="main-menu__link about">
+                        <img src="img/about.png">
+                        <div class="main-menu__cnt ">О компании</div>
+                    </a>
+                </li>
+                <li class="main-menu__item">
+                    <a href="products.html" class="main-menu__link product">
+                        <img src="img/pack.png">
+                        <div class="main-menu__cnt ">Наша продукция</div>
+                    </a>
+                </li>
+                <li class="main-menu__item">
+                    <a href="#" class="main-menu__link tecnology">
+                        <img src="img/tech.png">
+                        <div class="main-menu__cnt ">Технологии</div>
+                    </a>
+                </li>
+                <li class="main-menu__item">
+                    <a href="#" class="main-menu__link job">
+                        <img src="img/job.png">
+                        <div class="main-menu__cnt ">Работайте с нами</div>
+                    </a>
+                </li>
+                <li class="main-menu__item">
+                    <a href="#" class="main-menu__link contact">
+                        <img src="img/mark.png">
+                        <div class="main-menu__cnt ">Контакты</div>
+                    </a>
+                </li>
+            </ul>
+        </nav>
 
-    <div class="main">
-
-
-        <div class="main-section main-section--grey">
+        <section class="main-section main-section--grey">
             <div class="container">
                 <div class="main__ttl main__ttl--dark">События и новости</div>
                 <div class="main__cnt">Следите за последними обновлениями.</div>
             </div>
-        </div>
+        </section>
 
-        <div class="main-section main-action">
+        <section class="main-section main-action">
             <a href="#" class="main-action__link">
                 <div class="main-action__tbl">
                     <div class="main-action__cell">
-                        <img src="img/action.jpg" class="main-action__img">
                     </div>
                     <div class="main-action__cell">
                         <div class="main-action__mark">Акция</div>
@@ -107,10 +111,10 @@
                     </div>
                 </div>
             </a>
-        </div>
+        </section>
 
 
-        <div class="main-section main-news">
+        <section class="main-section main-news">
             <div class="container">
                 <div class="news__tbl">
                     <div class="news__container">
@@ -158,15 +162,15 @@
 
                 <button class="news__btn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Больше новостей</button>
             </div>
-        </div>
+        </section>
 
-        <div class="main-section main-vacansy">
+        <section class="main-section main-vacansy">
             <div class="container">
                 <div class="main__ttl main__ttl--dark">Текущие вакансии</div>
                 <div class="main__cnt">Работайте в нашей компании.</div>
 
                 <div class="vacansy__list">
-                    <div class="vacansy__item">
+                    <article class="vacansy__item">
                         <div class="vacansy__top">
                             <div class="vacansy__ttl">Младший оператор производственной линии</div>
                             <button class="vacansy__close active js-close"></button>
@@ -174,24 +178,30 @@
                         <div class="vacansy__descr">
                             <div class="vacansy__cnt-block">
                                 <div class="vacansy__cnt vacansy__cnt--bold">Требования</div>
-                                <div class="vacansy__cnt-item">Техническое образование или опыт работы на производстве</div>
+                                <ul>
+                                    <li class="vacansy__cnt-item">
+                                        Техническое образование или опыт работы на производстве
+                                    </li>
+                                </ul>
                             </div>
                             <div class="vacansy__cnt-block">
                                 <div class="vacansy__cnt vacansy__cnt--bold">Условия труда:</div>
-                                <div class="vacansy__cnt-item">Оформление по ТК РФ</div>
-                                <div class="vacansy__cnt-item">Профессиональный и карьерный рост</div>
-                                <div class="vacansy__cnt-item">Достойная заработная плата</div>
-                                <div class="vacansy__cnt-item">Полный соц. пакет (ДМС и др.)</div>
-                                <div class="vacansy__cnt-item">Корпоративное питание</div>
-                                <div class="vacansy__cnt-item">Корпоративный транспорт</div>
+                                <ul>
+                                    <li class="vacansy__cnt-item">Оформление по ТК РФ</li>
+                                    <li class="vacansy__cnt-item">Профессиональный и карьерный рост</li>
+                                    <li class="vacansy__cnt-item">Достойная заработная плата</li>
+                                    <li class="vacansy__cnt-item">Полный соц. пакет (ДМС и др.)</li>
+                                    <li class="vacansy__cnt-item">Корпоративное питание</li>
+                                    <li class="vacansy__cnt-item">Корпоративный транспорт</li>
+                                </ul>
                             </div>
 
                             <button class=" mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent vacansy__btn">Откликнуться на вакансию</button>
                             <button class="vacansy__btn vacansy__btn--grey">Скачать анкету соискателя</button>
                         </div>
-                    </div>
+                    </article>
 
-                    <div class="vacansy__item">
+                    <article class="vacansy__item">
                         <div class="vacansy__top">
                             <div class="vacansy__ttl">Младший электроник</div>
                             <button class="vacansy__close js-close"></button>
@@ -199,24 +209,30 @@
                         <div class="vacansy__descr">
                             <div class="vacansy__cnt-block">
                                 <div class="vacansy__cnt vacansy__cnt--bold">Требования</div>
-                                <div class="vacansy__cnt-item">Техническое образование или опыт работы на производстве</div>
+                                <ul>
+                                    <li class="vacansy__cnt-item">
+                                        Техническое образование или опыт работы на производстве
+                                    </li>
+                                </ul>
                             </div>
                             <div class="vacansy__cnt-block">
                                 <div class="vacansy__cnt vacansy__cnt--bold">Условия труда:</div>
-                                <div class="vacansy__cnt-item">Оформление по ТК РФ</div>
-                                <div class="vacansy__cnt-item">Профессиональный и карьерный рост</div>
-                                <div class="vacansy__cnt-item">Достойная заработная плата</div>
-                                <div class="vacansy__cnt-item">Полный соц. пакет (ДМС и др.)</div>
-                                <div class="vacansy__cnt-item">Корпоративное питание</div>
-                                <div class="vacansy__cnt-item">Корпоративный транспорт</div>
+                                <ul>
+                                    <li class="vacansy__cnt-item">Оформление по ТК РФ</li>
+                                    <li class="vacansy__cnt-item">Профессиональный и карьерный рост</li>
+                                    <li class="vacansy__cnt-item">Достойная заработная плата</li>
+                                    <li class="vacansy__cnt-item">Полный соц. пакет (ДМС и др.)</li>
+                                    <li class="vacansy__cnt-item">Корпоративное питание</li>
+                                    <li class="vacansy__cnt-item">Корпоративный транспорт</li>
+                                </ul>
                             </div>
 
                             <button class=" mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent vacansy__btn">Откликнуться на вакансию</button>
                             <button class="vacansy__btn vacansy__btn--grey">Скачать анкету соискателя</button>
                         </div>
-                    </div>
+                    </article>
 
-                    <div class="vacansy__item">
+                    <article class="vacansy__item">
                         <div class="vacansy__top">
                             <div class="vacansy__ttl">Менеджер по производству</div>
                             <button class="vacansy__close js-close"></button>
@@ -224,24 +240,30 @@
                         <div class="vacansy__descr">
                             <div class="vacansy__cnt-block">
                                 <div class="vacansy__cnt vacansy__cnt--bold">Требования</div>
-                                <div class="vacansy__cnt-item">Техническое образование или опыт работы на производстве</div>
+                                <ul>
+                                    <li class="vacansy__cnt-item">
+                                        Техническое образование или опыт работы на производстве
+                                    </li>
+                                </ul>
                             </div>
                             <div class="vacansy__cnt-block">
                                 <div class="vacansy__cnt vacansy__cnt--bold">Условия труда:</div>
-                                <div class="vacansy__cnt-item">Оформление по ТК РФ</div>
-                                <div class="vacansy__cnt-item">Профессиональный и карьерный рост</div>
-                                <div class="vacansy__cnt-item">Достойная заработная плата</div>
-                                <div class="vacansy__cnt-item">Полный соц. пакет (ДМС и др.)</div>
-                                <div class="vacansy__cnt-item">Корпоративное питание</div>
-                                <div class="vacansy__cnt-item">Корпоративный транспорт</div>
+                                <ul>
+                                    <li class="vacansy__cnt-item">Оформление по ТК РФ</li>
+                                    <li class="vacansy__cnt-item">Профессиональный и карьерный рост</li>
+                                    <li class="vacansy__cnt-item">Достойная заработная плата</li>
+                                    <li class="vacansy__cnt-item">Полный соц. пакет (ДМС и др.)</li>
+                                    <li class="vacansy__cnt-item">Корпоративное питание</li>
+                                    <li class="vacansy__cnt-item">Корпоративный транспорт</li>
+                                </ul>
                             </div>
 
                             <button class=" mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent vacansy__btn">Откликнуться на вакансию</button>
                             <button class="vacansy__btn vacansy__btn--grey">Скачать анкету соискателя</button>
                         </div>
-                    </div>
+                    </article>
 
-                    <div class="vacansy__item">
+                    <article class="vacansy__item">
                         <div class="vacansy__top">
                             <div class="vacansy__ttl">Водитель погрузчика</div>
                             <button class="vacansy__close js-close"></button>
@@ -249,24 +271,30 @@
                         <div class="vacansy__descr">
                             <div class="vacansy__cnt-block">
                                 <div class="vacansy__cnt vacansy__cnt--bold">Требования</div>
-                                <div class="vacansy__cnt-item">Техническое образование или опыт работы на производстве</div>
+                                <ul>
+                                    <li class="vacansy__cnt-item">
+                                        Техническое образование или опыт работы на производстве
+                                    </li>
+                                </ul>
                             </div>
                             <div class="vacansy__cnt-block">
                                 <div class="vacansy__cnt vacansy__cnt--bold">Условия труда:</div>
-                                <div class="vacansy__cnt-item">Оформление по ТК РФ</div>
-                                <div class="vacansy__cnt-item">Профессиональный и карьерный рост</div>
-                                <div class="vacansy__cnt-item">Достойная заработная плата</div>
-                                <div class="vacansy__cnt-item">Полный соц. пакет (ДМС и др.)</div>
-                                <div class="vacansy__cnt-item">Корпоративное питание</div>
-                                <div class="vacansy__cnt-item">Корпоративный транспорт</div>
+                                <ul>
+                                    <li class="vacansy__cnt-item">Оформление по ТК РФ</li>
+                                    <li class="vacansy__cnt-item">Профессиональный и карьерный рост</li>
+                                    <li class="vacansy__cnt-item">Достойная заработная плата</li>
+                                    <li class="vacansy__cnt-item">Полный соц. пакет (ДМС и др.)</li>
+                                    <li class="vacansy__cnt-item">Корпоративное питание</li>
+                                    <li class="vacansy__cnt-item">Корпоративный транспорт</li>
+                                </ul>
                             </div>
 
                             <button class=" mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent vacansy__btn">Откликнуться на вакансию</button>
                             <button class="vacansy__btn vacansy__btn--grey">Скачать анкету соискателя</button>
                         </div>
-                    </div>
+                    </article>
 
-                    <div class="vacansy__item">
+                    <article class="vacansy__item">
                         <div class="vacansy__top">
                             <div class="vacansy__ttl">Электрик</div>
                             <button class="vacansy__close js-close"></button>
@@ -274,26 +302,32 @@
                         <div class="vacansy__descr ">
                             <div class="vacansy__cnt-block">
                                 <div class="vacansy__cnt vacansy__cnt--bold">Требования</div>
-                                <div class="vacansy__cnt-item">Техническое образование или опыт работы на производстве</div>
+                                <ul>
+                                    <li class="vacansy__cnt-item">
+                                        Техническое образование или опыт работы на производстве
+                                    </li>
+                                </ul>
                             </div>
                             <div class="vacansy__cnt-block">
                                 <div class="vacansy__cnt vacansy__cnt--bold">Условия труда:</div>
-                                <div class="vacansy__cnt-item">Оформление по ТК РФ</div>
-                                <div class="vacansy__cnt-item">Профессиональный и карьерный рост</div>
-                                <div class="vacansy__cnt-item">Достойная заработная плата</div>
-                                <div class="vacansy__cnt-item">Полный соц. пакет (ДМС и др.)</div>
-                                <div class="vacansy__cnt-item">Корпоративное питание</div>
-                                <div class="vacansy__cnt-item">Корпоративный транспорт</div>
+                                <ul>
+                                    <li class="vacansy__cnt-item">Оформление по ТК РФ</li>
+                                    <li class="vacansy__cnt-item">Профессиональный и карьерный рост</li>
+                                    <li class="vacansy__cnt-item">Достойная заработная плата</li>
+                                    <li class="vacansy__cnt-item">Полный соц. пакет (ДМС и др.)</li>
+                                    <li class="vacansy__cnt-item">Корпоративное питание</li>
+                                    <li class="vacansy__cnt-item">Корпоративный транспорт</li>
+                                </ul>
                             </div>
 
                             <button class=" mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent vacansy__btn">Откликнуться на вакансию</button>
                             <button class="vacansy__btn vacansy__btn--grey">Скачать анкету соискателя</button>
                         </div>
-                    </div>
+                    </article>
                 </div>
             </div>
-        </div>
-    </div>
+        </section>
+    </main>
 
     <footer class="footer">
         <div class="container">
@@ -515,10 +549,6 @@
             }
 
         });
-
-
-
-
     });
 
 </script>

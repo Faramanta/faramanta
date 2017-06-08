@@ -2,92 +2,88 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="Keywords" content="">
-    <meta name="Description" content="">
+    <title>KT&G</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/material.indigo-pink.min.css">
     <link rel="stylesheet" href="css/style.css">
-
-    <title>KT&G</title>
-
 </head>
 <body>
 <div class="wrapper wrapper-in">
     <div class="header-cont">
         <header class="header">
-        <div class="top-header">
-            <div class="header__logo">
-                <a href="index.html"><img src="img/logo.png"></a>
-            </div>
-            <div class="in-menu">
-                <div class="in-menu__list">
-                    <div class="in-menu__item">
-                        <a href="#" class="in-menu__link ">О компании</a>
-                    </div>
-                    <div class="in-menu__item active">
-                        <a href="#" class="in-menu__link ">Наша продукция</a>
-                    </div>
-                    <div class="in-menu__item">
-                        <a href="#" class="in-menu__link ">Технологии</a>
-                    </div>
-                    <div class="in-menu__item">
-                        <a href="#" class="in-menu__link ">Работайте с нами</a>
-                    </div>
-                    <div class="in-menu__item">
-                        <a href="#" class="in-menu__link ">Контакты</a>
-                    </div>
+            <div class="top-header">
+                <div class="header__logo">
+                    <a href="index.html"><img src="img/logo.png"></a>
                 </div>
+                <nav class="in-menu">
+                    <ul class="in-menu__list">
+                        <li class="in-menu__item">
+                            <a href="#" class="in-menu__link ">О компании</a>
+                        </li>
+                        <li class="in-menu__item active">
+                            <a href="#" class="in-menu__link ">Наша продукция</a>
+                        </li>
+                        <li class="in-menu__item">
+                            <a href="#" class="in-menu__link ">Технологии</a>
+                        </li>
+                        <li class="in-menu__item">
+                            <a href="#" class="in-menu__link ">Работайте с нами</a>
+                        </li>
+                        <li class="in-menu__item">
+                            <a href="#" class="in-menu__link ">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="#" class="header__auth">
+                    <img src="img/user.png" class="header__auth-icon">
+                </a>
             </div>
-            <a href="#" class="header__auth">
-                <img src="img/user.png" class="header__auth-icon">
-            </a>
-        </div>
-
-
     </header>
-        <div class="sub-menu">
-            <div class="sub-menu__list ">
-                <div class="sub-menu__item">
-                    <a href="#original" class="sub-menu__link ">ESSE</a>
-                </div>
-                <div class="sub-menu__item ">
-                    <a href="#premium" class="sub-menu__link ">ESSE Premium</a>
-                </div>
-                <div class="sub-menu__item">
-                    <a href="#exchange" class="sub-menu__link ">ESSE Exchange</a>
-                </div>
-                <div class="sub-menu__item">
-                    <a href="#cafe" class="sub-menu__link ">ESSE Cafe</a>
-                </div>
-                <div class="sub-menu__item">
-                    <a href="#mini" class="sub-menu__link ">ESSE Mini</a>
-                </div>
-                <div class="sub-menu__item">
-                    <a href="#" class="sub-menu__link ">ESSE Blooming</a>
-                </div>
-            </div>
-        </div>
+    <nav class="sub-menu">
+        <ul class="sub-menu__list">
+            <li class="sub-menu__item ">
+                <a href="#original" class="sub-menu__link active">ESSE</a>
+            </li>
+            <li class="sub-menu__item ">
+                <a href="#premium" class="sub-menu__link ">ESSE Premium</a>
+            </li>
+            <li class="sub-menu__item">
+                <a href="#exchange" class="sub-menu__link ">ESSE Exchange</a>
+            </li>
+            <li class="sub-menu__item">
+                <a href="#cafe" class="sub-menu__link ">ESSE Cafe</a>
+            </li>
+            <li class="sub-menu__item">
+                <a href="#mini" class="sub-menu__link ">ESSE Mini</a>
+            </li>
+            <li class="sub-menu__item">
+                <a href="#" class="sub-menu__link ">ESSE Blooming</a>
+            </li>
+        </ul>
+    </nav>
     </div>
-    <div class="main">
+    <main class="main">
         <div class="in-container">
-            <div class="small-menu"></div>
-            <div class="prod__list">
+            <div class="small-menu" id="small-menu"></div>
+            <section class="prod__list">
                 <a id="original"></a>
-                <div class="prod__row">
+                <article class="prod__row">
                     <div class="prod__item prod__cnt">
-                        <div class="prod__ttl">ESSE</div>
-                        <div class="prod__ttl dark">Original</div>
+                        <h2 class="prod__ttl">ESSE<br>
+                            <span class="dark">Original</span></h2>
                         <div class="line"></div>
                         <div class="prod__descr">Флагманская линейка ESSE – оптимальное сочетание вкуса и качества. Тщательный отбор табаков и исключительный контроль качества позволяет наслаждаться неизменно мягким вкусом пяти видов сигарет с различным содержанием никотина и смолы.</div>
                     </div>
                     <div class="prod__item classic">
-                        <div class="prod__ttl2">ESSE Classic</div>
+                        <h3 class="prod__ttl2">ESSE Classic</h3>
                         <img src="img/esse-classic.png">
                         <div class="prod__about">
                             <div class="prod__about-container">
                                 <div class="prod__about__block">
-                                    <div class="prod__ttl2 ">ESSE Classic</div>
+                                    <h3 class="prod__ttl2 ">ESSE Classic</h3>
                                     <div class="prod__info">
                                         <div class="prod__ttl3">Параметры безопасности (мг/сиг)</div>
                                         <div class="prod__tbl">
@@ -125,16 +121,16 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </article>
 
-                <div class="prod__row">
+                <article class="prod__row">
                     <div class="prod__item blue">
-                        <div class="prod__ttl2">ESSE Blue</div>
+                        <h3 class="prod__ttl2">ESSE Blue</h3>
                         <img src="img/esse-blue.png">
                         <div class="prod__about">
                             <div class="prod__about-container">
                                 <div class="prod__about__block">
-                                    <div class="prod__ttl2 ">ESSE Blue</div>
+                                    <h3 class="prod__ttl2 ">ESSE Blue</h3>
                                     <div class="prod__info">
                                         <div class="prod__ttl3">Параметры безопасности (мг/сиг)</div>
                                         <div class="prod__tbl">
@@ -173,12 +169,12 @@
                         </div>
                     </div>
                     <div class="prod__item menthol">
-                        <div class="prod__ttl2">ESSE Menthol</div>
+                        <h3 class="prod__ttl2">ESSE Menthol</h3>
                         <img src="img/esse-menthol.png">
                         <div class="prod__about">
                             <div class="prod__about-container">
                                 <div class="prod__about__block">
-                                    <div class="prod__ttl2 ">ESSE Menthol</div>
+                                    <h3 class="prod__ttl2 ">ESSE Menthol</h3>
                                     <div class="prod__info">
                                         <div class="prod__ttl3">Параметры безопасности (мг/сиг)</div>
                                         <div class="prod__tbl">
@@ -216,16 +212,16 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </article>
 
-                <div class="prod__row">
+                <article class="prod__row">
                     <div class="prod__item one">
-                        <div class="prod__ttl2">ESSE One/1</div>
+                        <h3 class="prod__ttl2">ESSE One/1</h3>
                         <img src="img/esse-one.png">
                         <div class="prod__about">
                             <div class="prod__about-container">
                                 <div class="prod__about__block">
-                                    <div class="prod__ttl2 ">ESSE One/1</div>
+                                    <h3 class="prod__ttl2 ">ESSE One/1</h3>
                                     <div class="prod__info">
                                         <div class="prod__ttl3">Параметры безопасности (мг/сиг)</div>
                                         <div class="prod__tbl">
@@ -307,9 +303,9 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <a id="premium"></a>
-                <div class="prod__row">
+                </article>
+
+                <article class="prod__row" id="premium">
                     <div class="prod__item prod__cnt">
                         <div class="prod__ttl">ESSE</div>
                         <div class="prod__ttl golden">Premium</div>
@@ -361,9 +357,9 @@
                         </div>
                         <div class="after-r"></div>
                     </div>
-                </div>
+                </article>
 
-                <div class="prod__row">
+                <article class="prod__row">
                     <div class="prod__item gold-leaf">
                         <div class="prod__ttl2">ESSE Golden Leaf</div>
                         <img src="img/esse-golden-keaf.png">
@@ -452,9 +448,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <a id="exchange"></a>
-                <div class="prod__row">
+                </article>
+                <article class="prod__row" id="exchange">
                     <div class="prod__item prod__cnt">
                         <div class="prod__ttl">ESSE</div>
                         <div class="prod__ttl exch">Exchange</div>
@@ -506,9 +501,9 @@
                         </div>
                         <div class="after-r"></div>
                     </div>
-                </div>
-                <a id="cafe"></a>
-                <div class="prod__row">
+                </article>
+
+                <article class="prod__row" id="cafe">
                     <div class="prod__item exchange-w">
                         <div class="prod__ttl2">ESSE Exchange W</div>
                         <img src="img/esse-exchange-w.png">
@@ -558,9 +553,9 @@
                         <div class="line line--cafe"></div>
                         <div class="prod__descr">Супертонкие сигареты с ароматом натурального кофе и лесного ореха. Фильтр обладает приятным сладким вкусом, что делает продукт оригинальным и привлекательным для покупателей.</div>
                     </div>
-                </div>
-                <a id="mini"></a>
-                <div class="prod__row">
+                </article>
+
+                <article class="prod__row" id="mini">
                     <div class="prod__item prod__cnt ">
                         <div class="prod__ttl">ESSE <span class="mini">Mini</span></div>
                         <div class="line line--mini"></div>
@@ -612,9 +607,9 @@
                         </div>
                         <div class="after-b"></div>
                     </div>
-                </div>
+                </article>
 
-                <div class="prod__row">
+                <article class="prod__row">
                     <div class="prod__item green">
                         <div class="prod__ttl2">ESSE Green</div>
                         <img src="img/esse-green.png">
@@ -704,10 +699,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
+                </article>
+            </section>
         </div>
-    </div>
+    </main>
 </div>
     <footer class="footer">
         <div class="container">
@@ -812,20 +807,9 @@
 
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="js/material.min.js"></script>
+<script type="text/javascript" src="js/menu.js"></script>
 <script>
     $(document).ready(function(){
-        $('.js-close').click(function(){
-            if(!$(this).closest('.vacansy__item').hasClass('active')){
-                $('.vacansy__item').removeClass('active');
-                $('.js-close').removeClass('clicked');
-                $('.vacansy__descr').slideUp();
-                $(this).closest('.vacansy__item').addClass('active').find('.vacansy__descr').slideDown(200);
-                $(this).addClass('clicked');
-            } else {
-                $(this).closest('.vacansy__item').removeClass('active').find('.vacansy__descr').slideUp();
-                $(this).removeClass('clicked');
-            }
-        });
 
         $('.js-open-menu').click(function(){
             if(!$(this).closest('.footer-menu__block').hasClass('active')){
@@ -836,56 +820,8 @@
                 $(this).closest('.footer-menu__block').removeClass('active').find('.footer-menu__list').slideUp();
             }
         });
-
-        $('.js-open-topmenu').on('click', function () {
-            if(!$(this).hasClass('active')) {
-                $('.header-menu').slideDown(400);
-                $(this).addClass('active');
-            } else {
-                $('.header-menu').slideUp();
-                $(this).removeClass('active');
-            }
-        });
-
-        $('.sub-menu__link').on('click', function () {
-            if(!$(this).closest('.sub-menu__item').hasClass('active')) {
-                $('.sub-menu__item').removeClass('active');
-                $(this).closest('.sub-menu__item').addClass('active');
-            }
-        });
-
-        var h_header = 60;
-        $(function(){
-            var elem = $('#small-menu');
-            var top = $(this).scrollTop();
-
-            if(top > h_header){
-                $('.sub-menu__link').addClass('small');
-            }
-
-            $(window).scroll(function(){
-                top = $(this).scrollTop();
-                if (top>h_header) {
-                    $('.sub-menu__link').addClass('small');
-                    $('.sub-menu__item').addClass('small');
-
-                } else {
-                    $('.sub-menu__link').removeClass('small');
-                    $('.sub-menu__item').removeClass('small');
-                }
-            });
-        });
-
-
-        $(document).ready(function(){
-            $('.sub-menu').on('click','a', function (event) {
-                event.preventDefault();
-                var id  = $(this).attr('href'),
-                    top = $(id).offset().top;
-                $('body,html').animate({scrollTop: top-165}, 1500);
-            });
-        });
     });
+
 
 </script>
 
