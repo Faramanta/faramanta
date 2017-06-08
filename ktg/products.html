@@ -51,7 +51,7 @@
                 <div class="sub-menu__item">
                     <a href="#original" class="sub-menu__link ">ESSE</a>
                 </div>
-                <div class="sub-menu__item active">
+                <div class="sub-menu__item ">
                     <a href="#premium" class="sub-menu__link ">ESSE Premium</a>
                 </div>
                 <div class="sub-menu__item">
@@ -844,6 +844,13 @@
             } else {
                 $('.header-menu').slideUp();
                 $(this).removeClass('active');
+            }
+        });
+
+        $('.sub-menu__link').on('click', function () {
+            if(!$(this).closest('.sub-menu__item').hasClass('active')) {
+                $('.sub-menu__item').removeClass('active');
+                $(this).closest('.sub-menu__item').addClass('active');
             }
         });
 
