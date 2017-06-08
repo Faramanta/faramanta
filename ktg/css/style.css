@@ -177,7 +177,13 @@ ul {
     display: table-cell;
     text-align: center;
     height: 100px;
+    transition: all 0.3s;
 }
+
+.sub-menu__item.small {
+    height: 60px;
+}
+
 .sub-menu__link {
     display: block;
     padding: 50px 30px;
@@ -186,6 +192,11 @@ ul {
     color: #0b2050;
     text-decoration: none;
     font-size: 18px;
+    transition: all 0.3s;
+}
+
+.sub-menu__link.small {
+    padding: 20px 30px;
 }
 
 .sub-menu__item.active .sub-menu__link {
@@ -851,11 +862,74 @@ ul {
     bottom: 0px;
     right: 0px;
     left: 0px;
-    background: #564889 url("../img/over-bg.png") no-repeat -32px 349px;
+    background: url("../img/over-bg.png") no-repeat -32px 349px;
     color: #ffffff;
     opacity: 0;
     transition: all 0.5s;
 }
+
+.classic .prod__about {
+    background-color: #620914;
+}
+
+.blue .prod__about {
+    background-color: #063270;
+}
+
+.menthol .prod__about {
+    background-color: #09634b;
+}
+
+.one .prod__about {
+    background-color: #ffffff;
+}
+.one .prod__about__block {
+    background-color: #ffffff;
+    color: #0b2050;
+}
+
+.one .prod__ttl3 {
+    background-color: #ffffff;
+    color: rgba(11,32,80,0.9);
+}
+
+.one .prod__sell {
+    background-color: #ffffff;
+    color: rgba(11,32,80,0.3);
+}
+
+.field .prod__about {
+    background-color: #564889;
+}
+
+.gold .prod__about {
+    background-color: #cd9c5a;
+}
+
+.gold-leaf .prod__about {
+    background-color: #000000;
+}
+
+.exchange .prod__about {
+    background-color: #1baffb;
+}
+
+.exchange-w .prod__about {
+    background-color: #5e40b0;
+}
+
+.cafe-p .prod__about {
+    background-color: #e2865c;
+}
+
+.green .prod__about {
+    background-color: #0d969e;
+}
+
+.black .prod__about {
+    background-color: #000000;
+}
+
 
 .prod__about-container {
     display: table;

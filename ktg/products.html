@@ -49,19 +49,19 @@
         <div class="sub-menu">
             <div class="sub-menu__list ">
                 <div class="sub-menu__item">
-                    <a href="#" class="sub-menu__link ">ESSE</a>
+                    <a href="#original" class="sub-menu__link ">ESSE</a>
                 </div>
                 <div class="sub-menu__item active">
-                    <a href="#" class="sub-menu__link ">ESSE Premium</a>
+                    <a href="#premium" class="sub-menu__link ">ESSE Premium</a>
                 </div>
                 <div class="sub-menu__item">
-                    <a href="#" class="sub-menu__link ">ESSE Exchange</a>
+                    <a href="#exchange" class="sub-menu__link ">ESSE Exchange</a>
                 </div>
                 <div class="sub-menu__item">
-                    <a href="#" class="sub-menu__link ">ESSE Cafe</a>
+                    <a href="#cafe" class="sub-menu__link ">ESSE Cafe</a>
                 </div>
                 <div class="sub-menu__item">
-                    <a href="#" class="sub-menu__link ">ESSE Mini</a>
+                    <a href="#mini" class="sub-menu__link ">ESSE Mini</a>
                 </div>
                 <div class="sub-menu__item">
                     <a href="#" class="sub-menu__link ">ESSE Blooming</a>
@@ -71,7 +71,9 @@
     </div>
     <div class="main">
         <div class="in-container">
+            <div class="small-menu"></div>
             <div class="prod__list">
+                <a id="original"></a>
                 <div class="prod__row">
                     <div class="prod__item prod__cnt">
                         <div class="prod__ttl">ESSE</div>
@@ -306,7 +308,7 @@
                         </div>
                     </div>
                 </div>
-
+                <a id="premium"></a>
                 <div class="prod__row">
                     <div class="prod__item prod__cnt">
                         <div class="prod__ttl">ESSE</div>
@@ -451,7 +453,7 @@
                         </div>
                     </div>
                 </div>
-
+                <a id="exchange"></a>
                 <div class="prod__row">
                     <div class="prod__item prod__cnt">
                         <div class="prod__ttl">ESSE</div>
@@ -505,7 +507,7 @@
                         <div class="after-r"></div>
                     </div>
                 </div>
-
+                <a id="cafe"></a>
                 <div class="prod__row">
                     <div class="prod__item exchange-w">
                         <div class="prod__ttl2">ESSE Exchange W</div>
@@ -557,7 +559,7 @@
                         <div class="prod__descr">Супертонкие сигареты с ароматом натурального кофе и лесного ореха. Фильтр обладает приятным сладким вкусом, что делает продукт оригинальным и привлекательным для покупателей.</div>
                     </div>
                 </div>
-
+                <a id="mini"></a>
                 <div class="prod__row">
                     <div class="prod__item prod__cnt ">
                         <div class="prod__ttl">ESSE <span class="mini">Mini</span></div>
@@ -843,12 +845,39 @@
                 $('.header-menu').slideUp();
                 $(this).removeClass('active');
             }
+        });
 
+        var h_header = 60;
+        $(function(){
+            var elem = $('#small-menu');
+            var top = $(this).scrollTop();
+
+            if(top > h_header){
+                $('.sub-menu__link').addClass('small');
+            }
+
+            $(window).scroll(function(){
+                top = $(this).scrollTop();
+                if (top>h_header) {
+                    $('.sub-menu__link').addClass('small');
+                    $('.sub-menu__item').addClass('small');
+
+                } else {
+                    $('.sub-menu__link').removeClass('small');
+                    $('.sub-menu__item').removeClass('small');
+                }
+            });
         });
 
 
-
-
+        $(document).ready(function(){
+            $('.sub-menu').on('click','a', function (event) {
+                event.preventDefault();
+                var id  = $(this).attr('href'),
+                    top = $(id).offset().top;
+                $('body,html').animate({scrollTop: top-165}, 1500);
+            });
+        });
     });
 
 </script>
