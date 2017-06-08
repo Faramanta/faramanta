@@ -33,7 +33,6 @@ $(window).scroll(function(){
         $(window).scroll(function(){
             top = $(this).scrollTop();
             if (top>h_header) {
-                $(this).closest('.sub-menu__list--flex').addClass('small');
                 $('.sub-menu__link').addClass('small');
                 $('.sub-menu__item').addClass('small');
 
