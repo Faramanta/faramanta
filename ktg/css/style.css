@@ -623,6 +623,10 @@ ul {
     margin-bottom: 40px;
 }
 
+.footer-menu-m {
+    display: none;
+}
+
 .footer-menu__ttl {
     font-size: 13px;
     font-family: 'RobotoSlab-Bold', sans-serif;
@@ -1140,8 +1144,11 @@ ul {
         margin-bottom: 20px;
     }
 
-    .footer-menu {
+    .footer-menu-m {
         display: block;
+    }
+    .footer-menu-d {
+        display: none;
     }
 
     .footer-menu__ttl {
