@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="Keywords" content="">
     <meta name="Description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/material.indigo-pink.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -22,24 +23,19 @@
                 <img src="img/user.png" class="header__auth-icon">
                 <div class="header__auth-username">Личный кабинет</div>
             </a>
-            <a href="#" class="burger"></a>
+            <a href="#" class="burger js-open-topmenu">
+                <div class="burger-top"></div>
+                <div class="burger-mid"></div>
+                <div class="burger-bot"></div>
+            </a>
             <div class="header-menu">
                 <div class="header-menu__list">
-                    <a href="#" class="header-menu__item about">
-                        <div class="header-menu__cnt ">О компании</div>
-                    </a>
-                    <a href="#" class="header-menu__item product">
-                        <div class="header-menu__cnt ">Наша продукция</div>
-                    </a>
-                    <a href="#" class="header-menu__item tecnology">
-                        <div class="header-menu__cnt ">Технологии</div>
-                    </a>
-                    <a href="#" class="header-menu__item job">
-                        <div class="header-menu__cnt ">Работайте с нами</div>
-                    </a>
-                    <a href="#" class="header-menu__item contact">
-                        <div class="header-menu__cnt ">Контакты</div>
-                    </a>
+                    <a href="#" class="header-menu__item about">О компании</a>
+                    <a href="#" class="header-menu__item product">Наша продукция</a>
+                    <a href="#" class="header-menu__item tecnology">Технологии</a>
+                    <a href="#" class="header-menu__item job">Работайте с нами</a>
+                    <a href="#" class="header-menu__item contact">Контакты</a>
+                    <a href="#" class="header-menu__item auth">Личный кабинет</a>
                 </div>
             </div>
         </div>
@@ -54,6 +50,10 @@
                     <div class="main__ttl">Путь к успеху с KT&amp;G</div>
                     <div class="main-top__cnt">Профессионалы, стремящиеся к успеху, выбирают лидера индустрии.</div>
                 </div>
+            </div>
+            <div class="video__cnt-m">
+                <div class="main__ttl">Путь к успеху с KT&amp;G</div>
+                <div class="main-top__cnt">Профессионалы, стремящиеся к успеху, выбирают лидера индустрии.</div>
             </div>
         </div>
 
@@ -299,7 +299,7 @@
         <div class="container">
             <div class="footer-menu">
                 <div class="footer-menu__block">
-                    <div class="footer-menu__ttl">О компании</div>
+                    <div class="footer-menu__ttl js-open-menu">О компании</div>
                     <ul class="footer-menu__list">
                         <li class="footer-menu__item">
                             <a href="#" class="footer-menu__link">История</a>
@@ -317,7 +317,7 @@
                 </div>
 
                 <div class="footer-menu__block">
-                    <div class="footer-menu__ttl">Технологии</div>
+                    <div class="footer-menu__ttl js-open-menu">Технологии</div>
                     <ul class="footer-menu__list">
                         <li class="footer-menu__item">
                             <a href="#" class="footer-menu__link">Экологический менеджмент</a>
@@ -329,7 +329,7 @@
                 </div>
 
                 <div class="footer-menu__block">
-                    <div class="footer-menu__ttl">Карьера</div>
+                    <div class="footer-menu__ttl js-open-menu">Карьера</div>
                     <ul class="footer-menu__list">
                         <li class="footer-menu__item">
                             <a href="#" class="footer-menu__link">Преимущества</a>
@@ -341,7 +341,7 @@
                 </div>
 
                 <div class="footer-menu__block">
-                    <div class="footer-menu__ttl">Наша продукция</div>
+                    <div class="footer-menu__ttl js-open-menu">Наша продукция</div>
                     <ul class="footer-menu__list">
                         <li class="footer-menu__item">
                             <a href="#" class="footer-menu__link">ESSE Original</a>
@@ -365,7 +365,7 @@
                 </div>
 
                 <div class="footer-menu__block">
-                    <div class="footer-menu__ttl">Партнерам</div>
+                    <div class="footer-menu__ttl js-open-menu">Партнерам</div>
                     <ul class="footer-menu__list">
                         <li class="footer-menu__item">
                             <a href="#" class="footer-menu__link">Специальные предложения</a>
@@ -415,6 +415,31 @@
                 $(this).removeClass('clicked');
             }
         });
+
+        $('.js-open-menu').click(function(){
+            if(!$(this).closest('.footer-menu__block').hasClass('active')){
+                $('.footer-menu__block').removeClass('active');
+                $('.footer-menu__list').slideUp();
+                $(this).closest('.footer-menu__block').addClass('active').find('.footer-menu__list').slideDown(200);
+            } else {
+                $(this).closest('.footer-menu__block').removeClass('active').find('.footer-menu__list').slideUp();
+            }
+        });
+
+        $('.js-open-topmenu').on('click', function () {
+            if(!$(this).hasClass('active')) {
+                $('.header-menu').slideDown(400);
+                $(this).addClass('active');
+            } else {
+                $('.header-menu').slideUp();
+                $(this).removeClass('active');
+            }
+
+        });
+
+
+
+
     });
 
 </script>
