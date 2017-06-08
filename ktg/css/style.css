@@ -179,10 +179,6 @@ ul {
 
 
 
-.sub-menu__item.small {
-    height: 60px;
-}
-
 .sub-menu__link {
     display: block;
     padding: 50px 30px;
@@ -198,9 +194,6 @@ ul {
     font-family: 'RobotoSlab-Bold', sans-serif;
 }
 
-.sub-menu__link.small {
-    padding: 20px 30px;
-}
 
 .sub-menu__link.active {
     display: block;
@@ -211,6 +204,9 @@ ul {
 .sub-menu__list--flex {
     display: flex;
     justify-content: center;
+    min-height: 64px;
+    transition: all 0.3s;
+
 }
 
 .sub-menu__list--flex .sub-menu__item {
@@ -218,10 +214,19 @@ ul {
 }
 
 .sub-menu__list--flex .sub-menu__link {
-    padding:0;
+    padding: 50px 50px;
     width: 180px;
-    height: 124px;
-    line-height: 124px;
+    /*height: 124px;*/
+    /*line-height: 124px;*/
+}
+
+
+.sub-menu__item.small {
+    height: 60px;
+}
+
+.sub-menu__link.small {
+    padding: 20px 30px;
 }
 
 .container {

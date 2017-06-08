@@ -190,7 +190,7 @@
         <div class="container">
             <div class="footer-menu">
                 <div class="footer-menu__block">
-                    <div class="footer-menu__ttl js-open-menu">О компании</div>
+                    <div class="footer-menu__ttl">О компании</div>
                     <ul class="footer-menu__list">
                         <li class="footer-menu__item">
                             <a href="#" class="footer-menu__link">История</a>
@@ -208,7 +208,7 @@
                 </div>
 
                 <div class="footer-menu__block">
-                    <div class="footer-menu__ttl js-open-menu">Технологии</div>
+                    <div class="footer-menu__ttl">Технологии</div>
                     <ul class="footer-menu__list">
                         <li class="footer-menu__item">
                             <a href="#" class="footer-menu__link">Экологический менеджмент</a>
@@ -220,7 +220,7 @@
                 </div>
 
                 <div class="footer-menu__block">
-                    <div class="footer-menu__ttl js-open-menu">Карьера</div>
+                    <div class="footer-menu__ttl">Карьера</div>
                     <ul class="footer-menu__list">
                         <li class="footer-menu__item">
                             <a href="#" class="footer-menu__link">Преимущества</a>
@@ -232,7 +232,7 @@
                 </div>
 
                 <div class="footer-menu__block">
-                    <div class="footer-menu__ttl js-open-menu">Наша продукция</div>
+                    <div class="footer-menu__ttl">Наша продукция</div>
                     <ul class="footer-menu__list">
                         <li class="footer-menu__item">
                             <a href="#" class="footer-menu__link">ESSE Original</a>
@@ -256,7 +256,7 @@
                 </div>
 
                 <div class="footer-menu__block">
-                    <div class="footer-menu__ttl js-open-menu">Партнерам</div>
+                    <div class="footer-menu__ttl ">Партнерам</div>
                     <ul class="footer-menu__list">
                         <li class="footer-menu__item">
                             <a href="#" class="footer-menu__link">Специальные предложения</a>
@@ -291,18 +291,6 @@
 <script type="text/javascript" src="js/material.min.js"></script>
 <script type="text/javascript" src="js/menu.js"></script>
 <script>
-    $(document).ready(function(){
-
-        $('.js-open-menu').click(function(){
-            if(!$(this).closest('.footer-menu__block').hasClass('active')){
-                $('.footer-menu__block').removeClass('active');
-                $('.footer-menu__list').slideUp();
-                $(this).closest('.footer-menu__block').addClass('active').find('.footer-menu__list').slideDown(200);
-            } else {
-                $(this).closest('.footer-menu__block').removeClass('active').find('.footer-menu__list').slideUp();
-            }
-        });
-    });
 
 
 </script>
