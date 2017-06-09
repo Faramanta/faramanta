@@ -93,6 +93,10 @@ ul {
     margin-bottom: 3px;
 }
 
+.header__logo svg {
+    height: 500px;
+}
+
 .top-header {
     padding: 30px 55px ;
 }
@@ -181,6 +185,10 @@ ul {
     height: 30px;
     overflow: hidden;
     margin-bottom:3px;
+}
+
+.header-hide-menu__logo svg {
+    height: 340px;
 }
 
 .header-hide-menu__logo,
@@ -759,6 +767,11 @@ ul {
     height: 30px;
     overflow: hidden;
 }
+
+.footer-bot__logo svg {
+    height: 340px;
+}
+
 .footer-bot__copyright {
     font-size: 15px;
     font-family: 'SeroPro-Light', sans-serif;
@@ -1714,7 +1727,7 @@ ul {
 .SumoSelect.open > .CaptionCont {
     -webkit-box-shadow: none!important;
     box-shadow: none!important;
-    border-color: #bcc2ce ;
+    border-color: #bcc2ce !important;
 }
 
 .label-marka {
@@ -1732,7 +1745,7 @@ ul {
 }
 
 .label-marka.up {
-    top: -21px;
+    top: -22px;
     background: transparent;
 }
 

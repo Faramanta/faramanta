@@ -1,4 +1,6 @@
 $(document).ready(function(){
+
+
     //Плавная прокрутка до якоря
     $('.js-sub-menu').on('click','a', function (event) {
         event.preventDefault();

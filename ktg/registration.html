@@ -425,29 +425,21 @@
         $('select[name="marka"]').SumoSelect();
     });
 
+    $('#input-birthday').datepicker();
 
-
-    $('#input-birthday').datepicker({
-        onSelect: function(fd, d, picker) {
-            $('.add-class').addClass('input--filled');
-        }
-    });
 
     $('.label-marka, .myselect').on('click', function () {
-       $('.label-marka').addClass('up');
+        $('.label-marka').addClass('up');
+        $(document).ready(function(){
+            $(this).on('click', function() {
+                var attr = $('.CaptionCont').attr('title').trim();
+                if (attr < 1) {
+                    $('.label-marka').removeClass('up');
+                }
+            });
+        });
     });
 
-    $('.label-marka').on('click', function () {
-       $('.SumoSelect').addClass('open');
-    });
-
-//
-//
-//    $(document).on('click', function(event) {
-//        var attr = $('.CaptionCont').attr('title');
-//        if ($(event.target).closest('.SumoSelect').length ) return;
-//        $(attr)('.label-marka').addClass('dadad');
-//    });
 
 
 
