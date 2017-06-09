@@ -7,6 +7,13 @@ $(document).ready(function(){
         $('body,html').animate({scrollTop: top-165}, 1500);
     });
 
+    $('.sub-menu-about').on('click','a', function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top-40}, 1500);
+    });
+
     $('.sub-menu__link').on('click', function () {
         if(!$(this).hasClass('active')) {
             $('.sub-menu__link').removeClass('active');
