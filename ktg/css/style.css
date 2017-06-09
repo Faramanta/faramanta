@@ -166,6 +166,12 @@ ul {
     top:  0px
 }
 
+.header-hide-menu__logo,
+.header-hide-menu__auth {
+    display: inline-block;
+}
+
+
 .in-menu,
 .in-menu__item{
     display: inline-block;
@@ -1482,7 +1488,20 @@ ul {
     display: none;
 }
 
+@media screen and (max-width: 1279px) {
+    .main-action__link:hover .main-action__cell:first-child{
+        -webkit-background-size:cover;
+        background-size:cover;
+    }
+}
 
+
+@media screen and (max-width: 1150px) {
+.in-menu__link {
+    padding: 30px 20px;
+    font-size: 15px;
+}
+}
 
 @media screen and (max-width: 1023px) {
     .header {
