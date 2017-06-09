@@ -1390,6 +1390,7 @@ ul {
     transform: translate3d(0, -2.6vw, 0);
 }
 
+
 .form-reg__cbx-block {
     margin-top: 80px;
     margin-bottom: 60px;
@@ -1597,9 +1598,43 @@ ul {
 
 
 
+.datepicker-here {
+    font-family: 'SeroPro-Light', sans-serif;
+    line-height: 55px;
+    font-size: 18px;
+    width: 100%;
+}
 
-
-
+::-webkit-input-placeholder {
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    color: rgba(11,32,80,0.6);
+    margin-left: 20px;
+}
+::-moz-placeholder {
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    color: rgba(11,32,80,0.6);
+    margin-left: 20px;
+}/* Firefox 19+ */
+:-moz-placeholder {
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    color: rgba(11,32,80,0.6);
+    margin-left: 20px;
+}/* Firefox 18- */
+:-ms-input-placeholder {
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    color: rgba(11,32,80,0.6);
+    margin-left: 20px;
+}
+ {
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    color: rgba(11,32,80,0.6);
+    margin-left: 20px;
+}
 
 
 
