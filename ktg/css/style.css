@@ -1691,6 +1691,10 @@ ul {
 .myselect {
     position: relative;
 }
+
+.SumoSelect.myselect2 {
+    margin-right: 0!important;
+}
 .SumoSelect {
     margin-bottom: 15px;
     vertical-align: bottom;
@@ -1730,7 +1734,8 @@ ul {
     border-color: #bcc2ce !important;
 }
 
-.label-marka {
+.label-marka,
+.label-format {
     position: absolute;
     display: block;
     font-family: 'SeroPro-Light', sans-serif;
@@ -1744,7 +1749,8 @@ ul {
     transition: top 0.4s;
 }
 
-.label-marka.up {
+.label-marka.up,
+.label-format.up {
     top: -22px;
     background: transparent;
 }

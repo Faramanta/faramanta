@@ -195,31 +195,24 @@
                         <div class="form-reg__line">
                             <div class="form-reg__block">
                                 <p class="form-reg__text">Какие сигареты вы курите чаще всего?</p>
-                                <!--<span class="input input&#45;&#45;first input&#45;&#45;akira">-->
-                                    <!--<input class="input__field input__field&#45;&#45;akira" type="email" id="input-brand" >-->
-                                    <!--<label class="input__label input__label&#45;&#45;akira" for="input-brand">-->
-                                        <!--<span class="input__label-content input__label-content&#45;&#45;akira">Марка</span>-->
-                                    <!--</label>-->
-                                <!--</span>-->
-
-
                                 <div class="SumoSelect myselect" >
                                     <select name="marka">
                                         <option value="Марка"> </option>
+                                        <option value="Марка1">Марка1</option>
                                         <option value="Марка2">Марка2</option>
-                                        <option value="Марка3">Марка3</option>
                                     </select>
                                     <span class="label-marka">Марка</span>
                                 </div>
-
                             </div>
                             <div class="form-reg__block">
-                                <span class="input input--akira">
-                                    <input class="input__field input__field--akira" type="email" id="input-format" >
-                                    <label class="input__label input__label--akira" for="input-format">
-                                        <span class="input__label-content input__label-content--akira">Формат</span>
-                                    </label>
-                                </span>
+                                <div class="SumoSelect  myselect2" >
+                                    <select name="format">
+                                        <option value="Формат"> </option>
+                                        <option value="Формат1">Формат1</option>
+                                        <option value="Формат2">Формат2</option>
+                                    </select>
+                                    <span class="label-format">Формат</span>
+                                </div>
                             </div>
                         </div>
                         <div class="form-reg__cbx-block">
@@ -423,6 +416,7 @@
 
     $(document).ready(function(){
         $('select[name="marka"]').SumoSelect();
+        $('select[name="format"]').SumoSelect();
     });
 
     $('#input-birthday').datepicker();
@@ -440,7 +434,17 @@
         });
     });
 
-
+    $('.label-format, .myselect2').on('click', function () {
+        $('.label-format').addClass('up');
+        $(document).ready(function(){
+            $(this).on('click', function() {
+                var attr = $('.CaptionCont').attr('title').trim();
+                if (attr < 1) {
+                    $('.label-format').removeClass('up');
+                }
+            });
+        });
+    });
 
 
 </script>
