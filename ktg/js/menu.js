@@ -24,7 +24,6 @@ $(window).scroll(function(){
 //уменьшение меню
     var h_header = 60;
     $(function(){
-        var elem = $('#small-menu');
         var top = $(this).scrollTop();
 
         if(top > h_header){
@@ -42,6 +41,8 @@ $(window).scroll(function(){
             }
         });
     });
+
+
 
     // автоматическая активация пунктов меню
     var $sections = $('.prod__row');
