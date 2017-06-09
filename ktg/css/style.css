@@ -1257,14 +1257,26 @@ ul {
     margin-left: 20px;
 }
 
+.registation__soc-link--fb.mdl-button--accent.mdl-button--accent.mdl-button--raised {
+    background: url("../img/soc-sprite.png");
+    background-position: 0 0;
+}
+.registation__soc-link--vk.mdl-button--accent.mdl-button--accent.mdl-button--raised {
+    background: url("../img/soc-sprite.png");
+    background-position: -133px 0;
+}
+
+.registation__soc-block .mdl-button {
+    padding: 0;
+}
+
 .registation__form {
-    padding: 50px 205px;
+    padding: 25px 205px 50px;
 }
 
 .form__block {
     border-top: 1px solid #d1d5dd;
-    padding: 50px 0 30px;
-
+    padding: 25px 0 30px;
 }
 
 /*форма*/
@@ -1390,6 +1402,7 @@ ul {
     transform: translate3d(0, -2.6vw, 0);
 }
 
+.qqq
 
 .form-reg__cbx-block {
     margin-top: 80px;
@@ -1629,15 +1642,26 @@ ul {
     color: rgba(11,32,80,0.6);
     margin-left: 20px;
 }
- {
-    transition: -webkit-transform .3s;
-    transition: transform .3s;
-    color: rgba(11,32,80,0.6);
-    margin-left: 20px;
+
+
+#mini2,
+#cafe2,
+#exchange2,
+#premium2 {
+    display:block;
+    margin-top:-180px;
+    padding-top:180px
 }
 
-
-
+#princip2,
+#history2,
+#logo2,
+#security2,
+#ecology2 {
+    display:block;
+    margin-top:-70px;
+    padding-top:70px
+}
 
 /*help*/
 .mb30 {
