@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css/material.indigo-pink.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/datepicker.css">
+    <link rel="stylesheet" href="css/sumoselect.css">
+
 </head>
 <body>
     <div class="wrapper wrapper-in">
@@ -159,6 +161,15 @@
                                     <label class="input__label input__label--akira" for="input-brand">
                                         <span class="input__label-content input__label-content--akira">Марка</span>
                                     </label>
+                                    <div class="SumoSelect " >
+                                        <select name="marka">
+                                           <option value="Москва">Москва</option>
+                                           <option value="Санкт-Петербург">Санкт-Петербург</option>
+                                           <option value="Ярославль">Ярославль</option>
+                                        </select>
+                                    </div>
+
+
                                 </span>
                             </div>
                             <div class="form-reg__block">
@@ -294,6 +305,7 @@
 <script type="text/javascript" src="js/menu.js"></script>
 <script type="text/javascript" src="js/classie.js"></script>
 <script type="text/javascript" src="js/datepicker.js"></script>
+<script type="text/javascript" src="js/jquery.sumoselect.min.js"></script>
 <script>
     (function() {
         if (!String.prototype.trim) {
@@ -323,6 +335,16 @@
             }
         }
     })();
+
+    $(document).ready(function(){
+        $('select[name="marka"]').SumoSelect();
+    });
+    $(document).on('click', '.act-open-popup', function(){
+        $(this).find('div.form-popup').toggle();
+    });
+
+
+
 
 </script>
 

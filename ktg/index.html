@@ -637,7 +637,21 @@
             }
         });
 
-        //появляется меню
+        var t_head = 736;
+        $(function(){
+            var top = $(this).scrollTop();
+            if(top > t_head){
+                $('.header-hide-menu').addClass('show');
+            }
+            $(window).scroll(function(){
+                top = $(this).scrollTop();
+                if (top>t_head) {
+                    $('.header-hide-menu').addClass('show');
+                } else {
+                    $('.header-hide-menu').removeClass('show');
+                }
+            });
+        });
 
     });
 
