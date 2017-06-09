@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5ee243c-04f9-423c-88dc-3e8d5323d25d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktg/css/style.css" afterPath="$PROJECT_DIR$/ktg/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktg/index.html" afterPath="$PROJECT_DIR$/ktg/index.html" />
     </list>
     <ignored path="Miniianova.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,7 +43,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ktg/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="427">
@@ -53,23 +53,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ktg/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-672">
-              <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+            <state relative-caret-position="168">
+              <caret line="50" column="42" lean-forward="false" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
               <folding>
-                <element signature="e#2814#2819#0" expanded="true" />
-                <element signature="e#3076#3081#0" expanded="true" />
-                <element signature="e#5415#5420#0" expanded="true" />
-                <element signature="e#5488#5493#0" expanded="true" />
-                <element signature="e#6672#6677#0" expanded="true" />
-                <element signature="e#6992#6997#0" expanded="true" />
-                <element signature="e#7534#7539#0" expanded="true" />
-                <element signature="e#7978#7983#0" expanded="true" />
-                <element signature="e#8079#8084#0" expanded="true" />
-                <element signature="e#8508#8513#0" expanded="true" />
-                <element signature="e#30876#30882#0" expanded="true" />
+                <element signature="e#2826#2831#0" expanded="true" />
+                <element signature="e#3088#3093#0" expanded="true" />
+                <element signature="e#5427#5432#0" expanded="true" />
+                <element signature="e#5500#5505#0" expanded="true" />
+                <element signature="e#6684#6689#0" expanded="true" />
+                <element signature="e#7004#7009#0" expanded="true" />
+                <element signature="e#7546#7551#0" expanded="true" />
+                <element signature="e#7990#7995#0" expanded="true" />
+                <element signature="e#8091#8096#0" expanded="true" />
+                <element signature="e#8520#8525#0" expanded="true" />
+                <element signature="e#30888#30894#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,7 +98,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>exchange</find>
       <find>js-bonus-control</find>
       <find>small-menu</find>
       <find>h1</find>
@@ -128,6 +127,7 @@
       <find>form-reg__text</find>
       <find>footer-menu__ttl</find>
       <find>102</find>
+      <find>1023</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -150,10 +150,10 @@
         <option value="$PROJECT_DIR$/ktg/css/material.indigo-pink.min.css" />
         <option value="$PROJECT_DIR$/ktg/js/material.min.js" />
         <option value="$PROJECT_DIR$/ktg/js/menu.js" />
-        <option value="$PROJECT_DIR$/ktg/index.html" />
         <option value="$PROJECT_DIR$/ktg/products.html" />
         <option value="$PROJECT_DIR$/ktg/registration.html" />
         <option value="$PROJECT_DIR$/ktg/css/style.css" />
+        <option value="$PROJECT_DIR$/ktg/index.html" />
       </list>
     </option>
   </component>
@@ -375,12 +375,12 @@
       <workItem from="1496896586339" duration="20557000" />
       <workItem from="1496931992709" duration="10394000" />
       <workItem from="1496948186976" duration="16087000" />
-      <workItem from="1496987259758" duration="8872000" />
+      <workItem from="1496987259758" duration="9585000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93312000" />
+    <option name="totallyTimeSpent" value="94025000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -742,31 +742,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ktg/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-672">
-          <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-          <folding>
-            <element signature="e#2814#2819#0" expanded="true" />
-            <element signature="e#3076#3081#0" expanded="true" />
-            <element signature="e#5415#5420#0" expanded="true" />
-            <element signature="e#5488#5493#0" expanded="true" />
-            <element signature="e#6672#6677#0" expanded="true" />
-            <element signature="e#6992#6997#0" expanded="true" />
-            <element signature="e#7534#7539#0" expanded="true" />
-            <element signature="e#7978#7983#0" expanded="true" />
-            <element signature="e#8079#8084#0" expanded="true" />
-            <element signature="e#8508#8513#0" expanded="true" />
-            <element signature="e#30876#30882#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ktg/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
           <caret line="1494" column="112" lean-forward="false" selection-start-line="1494" selection-start-column="112" selection-end-line="1494" selection-end-column="112" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktg/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="50" column="42" lean-forward="false" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
+          <folding>
+            <element signature="e#2826#2831#0" expanded="true" />
+            <element signature="e#3088#3093#0" expanded="true" />
+            <element signature="e#5427#5432#0" expanded="true" />
+            <element signature="e#5500#5505#0" expanded="true" />
+            <element signature="e#6684#6689#0" expanded="true" />
+            <element signature="e#7004#7009#0" expanded="true" />
+            <element signature="e#7546#7551#0" expanded="true" />
+            <element signature="e#7990#7995#0" expanded="true" />
+            <element signature="e#8091#8096#0" expanded="true" />
+            <element signature="e#8520#8525#0" expanded="true" />
+            <element signature="e#30888#30894#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
