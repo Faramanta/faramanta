@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5ee243c-04f9-423c-88dc-3e8d5323d25d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktg/css/style.css" afterPath="$PROJECT_DIR$/ktg/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktg/registration.html" afterPath="$PROJECT_DIR$/ktg/registration.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktg/index.html" afterPath="$PROJECT_DIR$/ktg/index.html" />
     </list>
     <ignored path="Miniianova.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,34 +28,24 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ktg/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="653">
-              <caret line="793" column="7" lean-forward="true" selection-start-line="793" selection-start-column="7" selection-end-line="793" selection-end-column="7" />
+            <state relative-caret-position="280">
+              <caret line="212" column="52" lean-forward="false" selection-start-line="212" selection-start-column="36" selection-end-line="212" selection-end-column="52" />
               <folding>
                 <element signature="n#style#0;n#svg#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#svg#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#11661#11666#0" expanded="true" />
                 <element signature="e#11923#11928#0" expanded="true" />
-                <element signature="e#14271#14276#0" expanded="true" />
-                <element signature="e#14344#14349#0" expanded="true" />
-                <element signature="e#15528#15533#0" expanded="true" />
-                <element signature="e#15848#15853#0" expanded="true" />
-                <element signature="e#16390#16395#0" expanded="true" />
-                <element signature="e#16834#16839#0" expanded="true" />
-                <element signature="e#16935#16940#0" expanded="true" />
-                <element signature="e#17364#17369#0" expanded="true" />
+                <element signature="e#14332#14337#0" expanded="true" />
+                <element signature="e#14405#14410#0" expanded="true" />
+                <element signature="e#15589#15594#0" expanded="true" />
+                <element signature="e#15909#15914#0" expanded="true" />
+                <element signature="e#16451#16456#0" expanded="true" />
+                <element signature="e#16895#16900#0" expanded="true" />
+                <element signature="e#16996#17001#0" expanded="true" />
+                <element signature="e#17425#17430#0" expanded="true" />
                 <element signature="n#style#0;n#svg#0;n#div#0;n#div#2;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#44669#44675#0" expanded="true" />
+                <element signature="e#44730#44736#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logo_esse.svg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ktg/img/logo_esse.svg">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="632">
-              <caret line="41" column="6" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="41" selection-end-column="6" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -62,18 +53,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ktg/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="1751" column="16" lean-forward="false" selection-start-line="1751" selection-start-column="16" selection-end-line="1751" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ktg/js/menu.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="506">
+              <caret line="1899" column="5" lean-forward="false" selection-start-line="1899" selection-start-column="5" selection-end-line="1899" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -95,8 +76,8 @@
       <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ktg/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="58" column="6" lean-forward="false" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
+            <state relative-caret-position="46">
+              <caret line="47" column="106" lean-forward="false" selection-start-line="47" selection-start-column="106" selection-end-line="47" selection-end-column="106" />
               <folding>
                 <element signature="n#style#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -131,8 +112,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mini2</find>
-      <find>&lt;a id=&quot;premiu2&quot;&gt;&lt;/a&gt;</find>
       <find>princip</find>
       <find>registation__soc-link--fb</find>
       <find>sub-menu</find>
@@ -150,7 +129,6 @@
       <find>.in-menu__link</find>
       <find>footer-menu__list</find>
       <find>footer-menu__</find>
-      <find>1023</find>
       <find>preserveAspectRatio</find>
       <find>.sub-menu__link.small</find>
       <find>sub-menu__link</find>
@@ -161,6 +139,9 @@
       <find>sub-menu__list--flex</find>
       <find>.SumoSelect:focus</find>
       <find>label-marka</find>
+      <find>.main-action__cell:first-child</find>
+      <find>1023</find>
+      <find>main-action__cell</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -186,11 +167,11 @@
         <option value="$PROJECT_DIR$/ktg/js/datepicker.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/ktg/img/logo_esse.svg" />
-        <option value="$PROJECT_DIR$/ktg/index.html" />
         <option value="$PROJECT_DIR$/ktg/products.html" />
         <option value="$PROJECT_DIR$/ktg/about.html" />
         <option value="$PROJECT_DIR$/ktg/js/menu.js" />
         <option value="$PROJECT_DIR$/ktg/registration.html" />
+        <option value="$PROJECT_DIR$/ktg/index.html" />
         <option value="$PROJECT_DIR$/ktg/css/style.css" />
       </list>
     </option>
@@ -398,34 +379,35 @@
       <workItem from="1496896586339" duration="20557000" />
       <workItem from="1496931992709" duration="10394000" />
       <workItem from="1496948186976" duration="16087000" />
-      <workItem from="1496987259758" duration="59353000" />
+      <workItem from="1496987259758" duration="59395000" />
+      <workItem from="1497071478302" duration="1730000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143793000" />
+    <option name="totallyTimeSpent" value="145565000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28410313" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28839958" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24952741" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -620,13 +602,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.482/vk.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="1055" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.482/vk.svg" />
     <entry file="file://$PROJECT_DIR$/ktg/img/video.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -651,7 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
           <caret line="1747" column="38" lean-forward="false" selection-start-line="1747" selection-start-column="33" selection-end-line="1747" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -659,7 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -667,7 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="385">
           <caret line="97" column="65" lean-forward="true" selection-start-line="97" selection-start-column="43" selection-end-line="97" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -683,7 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -691,7 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1029">
           <caret line="3448" column="0" lean-forward="false" selection-start-line="3448" selection-start-column="0" selection-end-line="3448" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -699,7 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="46" lean-forward="false" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -726,7 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -752,37 +721,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ktg/img/logo_esse.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="41" column="6" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="41" selection-end-column="6" />
+        <state relative-caret-position="861">
+          <caret line="41" column="6" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="41" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ktg/index.html">
+    <entry file="file://$PROJECT_DIR$/ktg/js/menu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="793" column="7" lean-forward="true" selection-start-line="793" selection-start-column="7" selection-end-line="793" selection-end-column="7" />
+        <state relative-caret-position="21">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktg/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="47" column="106" lean-forward="false" selection-start-line="47" selection-start-column="106" selection-end-line="47" selection-end-column="106" />
           <folding>
-            <element signature="n#style#0;n#svg#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#11661#11666#0" expanded="true" />
-            <element signature="e#11923#11928#0" expanded="true" />
-            <element signature="e#14271#14276#0" expanded="true" />
-            <element signature="e#14344#14349#0" expanded="true" />
-            <element signature="e#15528#15533#0" expanded="true" />
-            <element signature="e#15848#15853#0" expanded="true" />
-            <element signature="e#16390#16395#0" expanded="true" />
-            <element signature="e#16834#16839#0" expanded="true" />
-            <element signature="e#16935#16940#0" expanded="true" />
-            <element signature="e#17364#17369#0" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#div#0;n#div#2;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#44669#44675#0" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -798,25 +762,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ktg/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="58" column="6" lean-forward="false" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktg/js/menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ktg/registration.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
@@ -828,10 +773,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ktg/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="212" column="52" lean-forward="false" selection-start-line="212" selection-start-column="36" selection-end-line="212" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#svg#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#11661#11666#0" expanded="true" />
+            <element signature="e#11923#11928#0" expanded="true" />
+            <element signature="e#14332#14337#0" expanded="true" />
+            <element signature="e#14405#14410#0" expanded="true" />
+            <element signature="e#15589#15594#0" expanded="true" />
+            <element signature="e#15909#15914#0" expanded="true" />
+            <element signature="e#16451#16456#0" expanded="true" />
+            <element signature="e#16895#16900#0" expanded="true" />
+            <element signature="e#16996#17001#0" expanded="true" />
+            <element signature="e#17425#17430#0" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#div#0;n#div#2;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#44730#44736#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ktg/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="1751" column="16" lean-forward="false" selection-start-line="1751" selection-start-column="16" selection-end-line="1751" selection-end-column="16" />
+        <state relative-caret-position="506">
+          <caret line="1899" column="5" lean-forward="false" selection-start-line="1899" selection-start-column="5" selection-end-line="1899" selection-end-column="5" />
           <folding />
         </state>
       </provider>
