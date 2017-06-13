@@ -269,6 +269,7 @@ ul {
     transition: all 0.3s;
 }
 
+
 .sub-menu-about .sub-menu__link {
     padding: 50px 20px;
 }
@@ -282,6 +283,11 @@ ul {
     background: #ccab6c;
     color: #ffffff;
 }
+
+.sub-menu__link:hover {
+    background: rgba(204,171,108,0.5);
+}
+
 
 .sub-menu__item.small {
     height: 60px;
