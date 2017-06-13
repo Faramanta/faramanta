@@ -1904,4 +1904,10 @@ ul {
     .vacansy__ttl {
         font-size: 20px;
     }
+    .vacansy__btn {
+        width: 100%;
+    }
+    .hide {
+        display: none;
+    }
 }
