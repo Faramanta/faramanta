@@ -3,12 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e5ee243c-04f9-423c-88dc-3e8d5323d25d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktg/about.html" afterPath="$PROJECT_DIR$/ktg/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktg/css/style.css" afterPath="$PROJECT_DIR$/ktg/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktg/index.html" afterPath="$PROJECT_DIR$/ktg/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktg/js/menu.js" afterPath="$PROJECT_DIR$/ktg/js/menu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktg/products.html" afterPath="$PROJECT_DIR$/ktg/products.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktg/registration.html" afterPath="$PROJECT_DIR$/ktg/registration.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contacts.html" afterPath="$PROJECT_DIR$/contacts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="Miniianova.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,86 +27,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ktg/index.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1197">
-              <caret line="57" column="12" lean-forward="false" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
-              <folding>
-                <element signature="n#style#0;n#svg#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#svg#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#11597#11602#0" expanded="true" />
-                <element signature="e#11859#11864#0" expanded="true" />
-                <element signature="e#14261#14266#0" expanded="true" />
-                <element signature="e#14334#14339#0" expanded="true" />
-                <element signature="e#15517#15522#0" expanded="true" />
-                <element signature="e#15837#15842#0" expanded="true" />
-                <element signature="e#16379#16384#0" expanded="true" />
-                <element signature="e#16823#16828#0" expanded="true" />
-                <element signature="e#16924#16929#0" expanded="true" />
-                <element signature="e#17353#17358#0" expanded="true" />
-                <element signature="n#style#0;n#svg#0;n#div#0;n#div#2;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#44940#44946#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ktg/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13111">
-              <caret line="1002" column="0" lean-forward="true" selection-start-line="1002" selection-start-column="0" selection-end-line="1002" selection-end-column="0" />
+            <state relative-caret-position="273">
+              <caret line="92" column="34" lean-forward="true" selection-start-line="92" selection-start-column="34" selection-end-line="92" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ktg/js/menu.js">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+            <state relative-caret-position="430">
+              <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="registration.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ktg/registration.html">
+      <file leaf-file-name="contacts.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contacts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5313">
-              <caret line="247" column="36" lean-forward="false" selection-start-line="247" selection-start-column="36" selection-end-line="247" selection-end-column="36" />
-              <folding>
-                <element signature="n#style#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="84">
+              <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ktg/about.html">
+        <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7161">
-              <caret line="318" column="12" lean-forward="false" selection-start-line="318" selection-start-column="12" selection-end-line="318" selection-end-column="12" />
-              <folding>
-                <element signature="n#style#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="products.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ktg/products.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25431">
-              <caret line="1205" column="18" lean-forward="true" selection-start-line="1205" selection-start-column="18" selection-end-line="1205" selection-end-column="18" />
-              <folding>
-                <element signature="n#style#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="651">
+              <caret line="39" column="97" lean-forward="false" selection-start-line="39" selection-start-column="97" selection-end-line="39" selection-end-column="97" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -168,18 +122,14 @@
         <option value="$PROJECT_DIR$/gllacy/css/style.css" />
         <option value="$PROJECT_DIR$/gllacy/css/style.min.css" />
         <option value="$PROJECT_DIR$/gllacy/index.html" />
-        <option value="$PROJECT_DIR$/contacts.html" />
         <option value="$PROJECT_DIR$/gllacy_adaptive/index.html" />
         <option value="$PROJECT_DIR$/../gllacy_adaptive/index.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/ktg/js/jquery-3.2.1.min.js" />
         <option value="$PROJECT_DIR$/ktg/css/material.indigo-pink.min.css" />
         <option value="$PROJECT_DIR$/ktg/js/material.min.js" />
         <option value="$PROJECT_DIR$/../esse-master/www/js/main.js" />
         <option value="$PROJECT_DIR$/ktg/js/classie.js" />
         <option value="$PROJECT_DIR$/ktg/js/datepicker.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/ktg/img/logo_esse.svg" />
         <option value="$PROJECT_DIR$/ktg/registration.html" />
         <option value="$PROJECT_DIR$/ktg/index.html" />
@@ -187,6 +137,10 @@
         <option value="$PROJECT_DIR$/ktg/about.html" />
         <option value="$PROJECT_DIR$/ktg/products.html" />
         <option value="$PROJECT_DIR$/ktg/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/contacts.html" />
+        <option value="$PROJECT_DIR$/about.html" />
       </list>
     </option>
   </component>
@@ -223,6 +177,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -249,27 +204,8 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Miniianova" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="faramanta.github.io" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ktg" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -398,18 +334,19 @@
       <workItem from="1497194107408" duration="290000" />
       <workItem from="1497342983644" duration="1052000" />
       <workItem from="1497375519868" duration="3928000" />
-      <workItem from="1497444529590" duration="1928000" />
+      <workItem from="1497444529590" duration="2525000" />
+      <workItem from="1497868121647" duration="400000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153360000" />
+    <option name="totallyTimeSpent" value="154357000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19656284" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19924812" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -547,25 +484,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contacts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../gllacy_adaptive/index.html" />
     <entry file="file://$PROJECT_DIR$/gllacy_adaptive/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="63" column="6" lean-forward="true" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -681,13 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="46" lean-forward="false" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ktg/js/datepicker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -698,13 +614,6 @@
     <entry file="file://$PROJECT_DIR$/ktg/js/classie.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-996">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
@@ -737,9 +646,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ktg/js/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1869">
+          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktg/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6678">
+          <caret line="318" column="12" lean-forward="false" selection-start-line="318" selection-start-column="12" selection-end-line="318" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktg/registration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5187">
+          <caret line="247" column="36" lean-forward="false" selection-start-line="247" selection-start-column="36" selection-end-line="247" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktg/products.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25305">
+          <caret line="1205" column="18" lean-forward="true" selection-start-line="1205" selection-start-column="18" selection-end-line="1205" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktg/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="1002" column="0" lean-forward="false" selection-start-line="1002" selection-start-column="0" selection-end-line="1002" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contacts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="39" column="97" lean-forward="false" selection-start-line="39" selection-start-column="97" selection-end-line="39" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ktg/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
+        <state relative-caret-position="777">
           <caret line="57" column="12" lean-forward="false" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
           <folding>
             <element signature="n#style#0;n#svg#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -760,51 +742,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ktg/js/menu.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktg/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7161">
-          <caret line="318" column="12" lean-forward="false" selection-start-line="318" selection-start-column="12" selection-end-line="318" selection-end-column="12" />
-          <folding>
-            <element signature="n#style#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktg/registration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5313">
-          <caret line="247" column="36" lean-forward="false" selection-start-line="247" selection-start-column="36" selection-end-line="247" selection-end-column="36" />
-          <folding>
-            <element signature="n#style#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktg/products.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25431">
-          <caret line="1205" column="18" lean-forward="true" selection-start-line="1205" selection-start-column="18" selection-end-line="1205" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#svg#0;n#a#0;n#div#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktg/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13111">
-          <caret line="1002" column="0" lean-forward="true" selection-start-line="1002" selection-start-column="0" selection-end-line="1002" selection-end-column="0" />
+        <state relative-caret-position="273">
+          <caret line="92" column="34" lean-forward="true" selection-start-line="92" selection-start-column="34" selection-end-line="92" selection-end-column="34" />
           <folding />
         </state>
       </provider>
