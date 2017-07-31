@@ -251,7 +251,7 @@ ul {
 .sub-menu__item {
     display: table-cell;
     text-align: center;
-    height: 100px;
+    /*height: 100px;*/
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
 }
@@ -292,7 +292,7 @@ ul {
 
 
 .sub-menu__item.small {
-    height: 60px;
+    /*height: 60px;*/
 }
 
 .sub-menu__link.small {
