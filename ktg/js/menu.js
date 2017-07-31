@@ -24,12 +24,11 @@ $(document).ready(function(){
 });
 
 
-
+//уменьшение меню
 function small_menu () {
     var _scrollTop;
     _scrollTop = $(window).scrollTop();
 
-//уменьшение меню
     var h_header = 60;
     $(function(){
         var top = $(this).scrollTop();
@@ -53,31 +52,6 @@ function small_menu () {
 
 $(document).ready(small_menu);
 $(window).on('scroll', small_menu);
-
-// $(window).scroll(function(){
-//     _scrollTop = $(window).scrollTop();
-//
-// //уменьшение меню
-//     var h_header = 60;
-//     $(function(){
-//         var top = $(this).scrollTop();
-//
-//         if(top > h_header){
-//             $('.sub-menu__link').addClass('small');
-//         }
-//         $(window).scroll(function(){
-//             top = $(this).scrollTop();
-//             if (top>h_header) {
-//                 $('.sub-menu__link').addClass('small');
-//                 $('.sub-menu__item').addClass('small');
-//
-//             } else {
-//                 $('.sub-menu__link').removeClass('small');
-//                 $('.sub-menu__item').removeClass('small');
-//             }
-//         });
-//     });
-// });
 
 // активный пункт меню
 function scroll_active() {
