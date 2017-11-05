@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'PT Mono';
+    src: url('../fonts/PTM55FT.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PT Sans';
+    src: url('../fonts/PTSans/PT_Sans-Web-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PT Sans bold';
+    src: url('../fonts/PTSans/PT_Sans-Web-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
