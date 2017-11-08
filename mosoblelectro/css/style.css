@@ -100,18 +100,21 @@ body {
     display: block;
     width: 100%;
     min-height: 484px;
-    background: url("../images/banner-bg.png");
+    background-size: cover;
+    background: url("../images/banner-bg.jpg") no-repeat;
 }
 
 .banner__cnt-block {
     position: absolute;
-    right: 148px;
-    top: 240px;
-    text-align: right;
+    left: 140px;
+    top: 143px;
+    width: 592px;
+    text-align: left;
 }
 
 .banner__cnt {
-    font-size: 48px;
+    font-size: 60px;
+    line-height: 67px;
     color: #F2F2F2;
     font-family: 'PT Mono', monospace;
 }
@@ -131,7 +134,7 @@ body {
 }
 
 .banner__bnt--bnr {
-    margin-top: 25px;
+    margin-top: 23px;
 }
 
 .banner__bnt--top {
@@ -253,13 +256,13 @@ body {
     position: relative;
     max-width: 800px;
     margin:auto;
-    padding: 75px 0;
+    padding: 65px 0;
 }
 
 .content-in {
     max-width: 700px;
     margin:auto;
-    padding: 75px 0;
+    padding: 35px 0 35px;
 }
 
 .mos__ttl2 {
