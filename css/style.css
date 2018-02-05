@@ -115,13 +115,19 @@ h2, h3, h4, h5, h6{
 }
 
 .project-list__row {
-    display: flex;
+    /*display: flex;*/
     justify-content: space-between;
 }
 
 .project-item{
     display: inline-block;
     margin-bottom: 45px;
+    width: 218px;
+    margin-right: 18px;
+}
+
+.project-item:nth-child(4n) {
+    margin-right: 0;
 }
 
 .project-item:nth-child(4n){
@@ -225,8 +231,9 @@ h2, h3, h4, h5, h6{
 .project-img-big{
     display: none;
     position: absolute;
-    top: 40px;
-    left: 400px;
+    top: 20px;
+    margin-bottom: 20px;
+    margin-right: -400px;
     right: 50%;
 }
 
