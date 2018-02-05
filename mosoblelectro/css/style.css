@@ -131,6 +131,7 @@ body {
     border: none;
     color: #fff;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .banner__bnt--bnr {
