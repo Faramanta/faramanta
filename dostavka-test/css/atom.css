@@ -1,0 +1,15 @@
+.bold {
+    font-weight: bold;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.pl10 {
+    padding-left: 10px;
+}
+
+.pt5 {
+    padding-top: 5px;
+}
