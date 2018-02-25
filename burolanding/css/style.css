@@ -497,8 +497,15 @@ html, body {
 .bl__inp {
     width: 100%;
     height: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     background: transparent;
     border: none;
+    color: #fff;
+    font-size: 18px;
+    outline:none;
+    padding: 5px 0;
 }
 
 .bl__inp::-webkit-input-placeholder {

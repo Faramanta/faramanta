@@ -187,4 +187,14 @@
     <script  src="js/jquery-3.3.1.min.js"></script>
     <!--<script  src="js/index.js"></script>-->
 
+<script>
+    $('.bl__inp').focus(function(){
+        $(this).data('placeholder',$(this).attr('placeholder'));
+        $(this).attr('placeholder','');
+    });
+    $('.bl__inp').blur(function(){
+        $(this).attr('placeholder',$(this).data('placeholder'));
+    });
+
+</script>
 </html>
