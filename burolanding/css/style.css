@@ -153,7 +153,7 @@ html, body {
 }
 
 .bl__btn .text {
-    font-family: proxima-nova, monospace;
+    font-family: 'Montserrat', sans-serif;
     transform: translate3d(0, 0.2em, 0);
     display: block;
     transition: transform 0.4s cubic-bezier(0.2, 0, 0, 1) 0.4s;
