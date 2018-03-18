@@ -1,0 +1,246 @@
+%!Adobe-FontList 1.18
+%Locale:0x419
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:FreeSetBoldC
+FamilyName:FreeSetBoldC
+StyleName:Regular
+FullName:FreeSetBoldC
+MenuName:FreeSetBoldC
+StyleBits:0
+FamilyNameNative:FreeSetBoldC
+StyleNameNative:Regular
+FullNameNative:FreeSetBoldC Regular
+WritingScript:Cyrillic
+OutlineFileName:C:\Users\sex-designer\Desktop\Natali Tour\Font\FreeSetBoldC.otf
+DataFormat:sfntData
+UsesStandardEncoding:no
+isCFF:yes
+hasSVG:no
+FileLength:28048
+FileModTime:1108311500
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,FreeSetBoldC
+NameArray:0,Win,1,FreeSetBoldC
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:FreeSetC-Italic
+FamilyName:FreeSetC
+StyleName:Italic
+FullName:FreeSetC Italic
+MenuName:FreeSetC
+StyleBits:1
+FamilyNameNative:FreeSetC
+StyleNameNative:Italic
+FullNameNative:FreeSetC Italic
+WritingScript:Cyrillic
+OutlineFileName:C:\Users\sex-designer\Desktop\Natali Tour\Font\FreeSetC-Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:no
+isCFF:yes
+hasSVG:no
+FileLength:27036
+FileModTime:1108311500
+WeightClass:400
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,FreeSetC Italic
+NameArray:0,Win,1,FreeSetC
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:FreeSetC
+FamilyName:FreeSetC
+StyleName:Regular
+FullName:FreeSetC
+MenuName:FreeSetC
+StyleBits:0
+FamilyNameNative:FreeSetC
+StyleNameNative:Regular
+FullNameNative:FreeSetC Regular
+WritingScript:Cyrillic
+OutlineFileName:C:\Users\sex-designer\Desktop\Natali Tour\Font\FreeSetC.otf
+DataFormat:sfntData
+UsesStandardEncoding:no
+isCFF:yes
+hasSVG:no
+FileLength:25736
+FileModTime:1108311500
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,FreeSetC
+NameArray:0,Win,1,FreeSetC
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:FreeSetDemiC
+FamilyName:FreeSetDemiC
+StyleName:Regular
+FullName:FreeSetDemiC
+MenuName:FreeSetDemiC
+StyleBits:0
+FamilyNameNative:FreeSetDemiC
+StyleNameNative:Regular
+FullNameNative:FreeSetDemiC Regular
+WritingScript:Cyrillic
+OutlineFileName:C:\Users\sex-designer\Desktop\Natali Tour\Font\FreeSetDemiC.otf
+DataFormat:sfntData
+UsesStandardEncoding:no
+isCFF:yes
+hasSVG:no
+FileLength:24088
+FileModTime:1108311500
+WeightClass:600
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,FreeSetDemiC
+NameArray:0,Win,1,FreeSetDemiC
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:FreeSetLightC
+FamilyName:FreeSetLightC
+StyleName:Regular
+FullName:FreeSetLightC
+MenuName:FreeSetLightC
+StyleBits:0
+FamilyNameNative:FreeSetLightC
+StyleNameNative:Regular
+FullNameNative:FreeSetLightC Regular
+WritingScript:Cyrillic
+OutlineFileName:C:\Users\sex-designer\Desktop\Natali Tour\Font\FreeSetLightC.otf
+DataFormat:sfntData
+UsesStandardEncoding:no
+isCFF:yes
+hasSVG:no
+FileLength:23836
+FileModTime:1108311502
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,FreeSetLightC
+NameArray:0,Win,1,FreeSetLightC
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:OpiumNewC-Bold
+FamilyName:OpiumNewC
+StyleName:Bold
+FullName:OpiumNewC Bold
+MenuName:OpiumNewC
+StyleBits:2
+FamilyNameNative:OpiumNewC
+StyleNameNative:Bold
+FullNameNative:OpiumNewC Bold
+WritingScript:Cyrillic
+OutlineFileName:C:\Users\sex-designer\Desktop\Natali Tour\Font\OpiumNewC-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:no
+isCFF:yes
+hasSVG:no
+FileLength:38928
+FileModTime:1108776810
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,OpiumNewC Bold
+NameArray:0,Win,1,OpiumNewC
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:OpiumNewC-BoldItalic
+FamilyName:OpiumNewC
+StyleName:Bold Italic
+FullName:OpiumNewC Bold Italic
+MenuName:OpiumNewC
+StyleBits:3
+FamilyNameNative:OpiumNewC
+StyleNameNative:Bold Italic
+FullNameNative:OpiumNewC Bold Italic
+WritingScript:Cyrillic
+OutlineFileName:C:\Users\sex-designer\Desktop\Natali Tour\Font\OpiumNewC-BoldItalic.otf
+DataFormat:sfntData
+UsesStandardEncoding:no
+isCFF:yes
+hasSVG:no
+FileLength:39192
+FileModTime:1231682166
+WeightClass:700
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,OpiumNewC Bold Italic
+NameArray:0,Win,1,OpiumNewC
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:OpiumNewC-Italic
+FamilyName:OpiumNewC
+StyleName:Italic
+FullName:OpiumNewC Italic
+MenuName:OpiumNewC
+StyleBits:1
+FamilyNameNative:OpiumNewC
+StyleNameNative:Italic
+FullNameNative:OpiumNewC Italic
+WritingScript:Cyrillic
+OutlineFileName:C:\Users\sex-designer\Desktop\Natali Tour\Font\OpiumNewC-Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:no
+isCFF:yes
+hasSVG:no
+FileLength:24724
+FileModTime:1108762412
+WeightClass:400
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,OpiumNewC Italic
+NameArray:0,Win,1,OpiumNewC
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:OpiumNewC
+FamilyName:OpiumNewC
+StyleName:Regular
+FullName:OpiumNewC
+MenuName:OpiumNewC
+StyleBits:0
+FamilyNameNative:OpiumNewC
+StyleNameNative:Regular
+FullNameNative:OpiumNewC Regular
+WritingScript:Cyrillic
+OutlineFileName:C:\Users\sex-designer\Desktop\Natali Tour\Font\OpiumNewC.otf
+DataFormat:sfntData
+UsesStandardEncoding:no
+isCFF:yes
+hasSVG:no
+FileLength:24700
+FileModTime:1108762410
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,OpiumNewC
+NameArray:0,Win,1,OpiumNewC
+%EndFont
+
