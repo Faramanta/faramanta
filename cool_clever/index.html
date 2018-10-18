@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+
+    <title>CoolClever</title>
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+            <div class="header__topbar">
+                <div class="header__container">
+                    <img src="img/header1.png" class="header__img">
+                </div>
+            </div>
+            <div class="header__head" >
+                <div class="header__container">
+                    <img src="img/header2.png" class="header__img">
+                </div>
+            </div>
+            <div class="header__menu">
+                <div class="header__container">
+                    <img src="img/header3.png" class="header__img">
+                </div>
+            </div>
+        </header>
+
+        <div class="main">
+            <div class="container">
+                <h2 class="ttl2">Вход в личный кабинет</h2>
+                <form class="form">
+                    <div class="form__step0">
+                        <button class="form__btn" id="btnStep11">Есть аккаунт</button>
+                        <button class="form__btn" id="btnStep21">Нет аккаунта</button>
+                    </div>
+
+                    <div class="form__step11">
+                        <label class="form__lbl" for="phone">Номер телефона</label>
+                        <div class="form__imp-wrap">
+                            <input type="tel" class="form__imp" id="phone" value="8 (999) 999-99-99">
+                        </div>
+                        <p class="form__sub">Нажимая кнопку «Далее», вы принимаете условия <a href="#" class="link">Пользовательского соглашения</a></p>
+                        <button class="form__btn" id="btnStep12">Далее</button>
+                    </div>
+
+                    <div class="form__step12">
+                        <label class="form__lbl" for="kod">Код подтверждения</label>
+                        <div class="form__imp-wrap">
+                            <input type="text" class="form__imp" id="kod" value="3267">
+                        </div>
+                        <button class="form__btn" id="btnStep13">Далее</button>
+                    </div>
+
+                    <div class="form__step13">
+                        <img src="img/card.jpg" class="form__img">
+                        <span class="form__lbl" >Подтвердите ваши данные</span>
+                        <div class="form__imp-wrap">
+                            <input type="text" class="form__imp" id="name" value="Иван">
+                        </div>
+                        <div class="form__imp-wrap">
+                            <input type="email" class="form__imp" id="email" value="Ivan@mail.ru">
+                        </div>
+                        <button class="form__btn" id="btnStep14">Далее</button>
+                    </div>
+
+                    <div class="form__step14">
+                        <a href="#" class="form__link-back" id="linkBack13">
+                            <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path opacity="0.5" d="M7 0.5L1 6.5L7 12.5" stroke="black"/>
+                            </svg>
+                            <span>Назад</span>
+                        </a>
+                        <p class="form__cnt">Все КеГЛи на карте будут автоматически переведены на ваш аккаунт</p>
+                        <div class="form__imp-wrap">
+                            <input type="text" class="form__imp" id="cardNum" value="Номер карты">
+                        </div>
+                        <button class="form__btn" id="btnStep15">Далее</button>
+                    </div>
+
+                    <div class="form__step15">
+                        <label class="form__lbl" for="kod2">Код подтверждения</label>
+                        <div class="form__imp-wrap">
+                            <input type="text" class="form__imp" id="kod2" value="3267">
+                        </div>
+                        <button class="form__btn" id="btnStep16">Далее</button>
+                    </div>
+
+                    <div class="form__step16">
+                        <p class="form__cnt form__cnt--200">Карта <span class="grey">999-999-999-999</span> успешно добавлена</p>
+                        <button class="form__btn" id="btnStep10">Далее</button>
+                    </div>
+
+                    <div class="form__step21">
+                        <p class="form__cnt form__cnt--100 form__cnt--17">Если у вас есть карта <a href="#" class="form__link">добавьте ее</a>
+                            <span class="form__cnt--14 grey block">Не беспокойтесь, вы можете сделать это позднее.</span>
+                        </p>
+                        <span class="form__lbl" >Укажите ваши данные</span>
+                        <div class="form__imp-wrap">
+                            <input type="text" class="form__imp" id="name2" placeholder="Имя*">
+                        </div>
+                        <div class="form__imp-wrap">
+                            <input type="email" class="form__imp" id="email2" placeholder="Email">
+                        </div>
+                        <button class="form__btn" id="btnStep20">Далее</button>
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+
+        <footer class="footer">
+
+        </footer>
+    </div>
+
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
