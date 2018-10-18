@@ -40,18 +40,19 @@
                     </div>
 
                     <div class="form__step11">
-                        <label class="form__lbl" for="phone">Номер телефона</label>
+                        <label class="form__lbl" for="phone1">Номер телефона</label>
                         <div class="form__imp-wrap">
-                            <input type="tel" class="form__imp" id="phone" value="8 (999) 999-99-99">
+                            <input type="tel" class="form__imp" id="phone1" placeholder="+7 (999) 999-99-99">
                         </div>
                         <p class="form__sub">Нажимая кнопку «Далее», вы принимаете условия <a href="#" class="link">Пользовательского соглашения</a></p>
                         <button class="form__btn" id="btnStep12">Далее</button>
                     </div>
 
                     <div class="form__step12">
-                        <label class="form__lbl" for="kod">Код подтверждения</label>
-                        <div class="form__imp-wrap">
-                            <input type="text" class="form__imp" id="kod" value="3267">
+                        <label class="form__lbl" for="kod1">Код подтверждения</label>
+                        <div class="form__imp-wrap form__imp-wrap-kod">
+                            <input type="text" class="form__imp form__kod" id="kod1" value="">
+                            <span class="error__msg">Код неправильный</span>
                         </div>
                         <button class="form__btn" id="btnStep13">Далее</button>
                     </div>
@@ -60,43 +61,36 @@
                         <img src="img/card.jpg" class="form__img">
                         <span class="form__lbl" >Подтвердите ваши данные</span>
                         <div class="form__imp-wrap">
-                            <input type="text" class="form__imp" id="name" value="Иван">
+                            <input type="text" class="form__imp" id="name1" value="Иван">
                         </div>
                         <div class="form__imp-wrap">
-                            <input type="email" class="form__imp" id="email" value="Ivan@mail.ru">
+                            <input type="email" class="form__imp" id="email1" value="Ivan@mail.ru">
                         </div>
-                        <button class="form__btn" id="btnStep14">Далее</button>
-                    </div>
-
-                    <div class="form__step14">
-                        <a href="#" class="form__link-back" id="linkBack13">
-                            <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path opacity="0.5" d="M7 0.5L1 6.5L7 12.5" stroke="black"/>
-                            </svg>
-                            <span>Назад</span>
-                        </a>
-                        <p class="form__cnt">Все КеГЛи на карте будут автоматически переведены на ваш аккаунт</p>
-                        <div class="form__imp-wrap">
-                            <input type="text" class="form__imp" id="cardNum" value="Номер карты">
-                        </div>
-                        <button class="form__btn" id="btnStep15">Далее</button>
-                    </div>
-
-                    <div class="form__step15">
-                        <label class="form__lbl" for="kod2">Код подтверждения</label>
-                        <div class="form__imp-wrap">
-                            <input type="text" class="form__imp" id="kod2" value="3267">
-                        </div>
-                        <button class="form__btn" id="btnStep16">Далее</button>
-                    </div>
-
-                    <div class="form__step16">
-                        <p class="form__cnt form__cnt--200">Карта <span class="grey">999-999-999-999</span> успешно добавлена</p>
                         <button class="form__btn" id="btnStep10">Далее</button>
                     </div>
 
+
+
                     <div class="form__step21">
-                        <p class="form__cnt form__cnt--100 form__cnt--17">Если у вас есть карта <a href="#" class="form__link">добавьте ее</a>
+                        <label class="form__lbl" for="phone2">Номер телефона</label>
+                        <div class="form__imp-wrap">
+                            <input type="tel" class="form__imp" id="phone2" placeholder="+7 (999) 999-99-99">
+                        </div>
+                        <p class="form__sub">Нажимая кнопку «Далее», вы принимаете условия <a href="#" class="link">Пользовательского соглашения</a></p>
+                        <button class="form__btn" id="btnStep22">Далее</button>
+                    </div>
+
+                    <div class="form__step22">
+                        <label class="form__lbl" for="kod2">Код подтверждения</label>
+                        <div class="form__imp-wrap form__imp-wrap-kod">
+                            <input type="text" class="form__imp form__kod" id="kod2" value="">
+                            <span class="error__msg">Код неправильный</span>
+                        </div>
+                        <button class="form__btn" id="btnStep23">Далее</button>
+                    </div>
+
+                    <div class="form__step23">
+                        <p class="form__cnt form__cnt--100 form__cnt--17">Если у вас есть карта <a href="#" class="form__link" id="btnStep31">добавьте ее</a>
                             <span class="form__cnt--14 grey block">Не беспокойтесь, вы можете сделать это позднее.</span>
                         </p>
                         <span class="form__lbl" >Укажите ваши данные</span>
@@ -108,6 +102,49 @@
                         </div>
                         <button class="form__btn" id="btnStep20">Далее</button>
                     </div>
+
+
+
+                    <div class="form__step31">
+                        <a href="#" class="form__link-back" id="linkBack13">
+                            <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path opacity="0.5" d="M7 0.5L1 6.5L7 12.5" stroke="black"/>
+                            </svg>
+                            <span>Назад</span>
+                        </a>
+                        <p class="form__cnt">Все КеГЛи на карте будут автоматически переведены на ваш аккаунт</p>
+                        <div class="form__imp-wrap">
+                            <input type="text" class="form__imp" id="cardNum3" placeholder="Номер карты">
+                        </div>
+                        <button class="form__btn" id="btnStep32">Далее</button>
+                    </div>
+
+                    <div class="form__step32">
+                        <label class="form__lbl" for="kod3">Код подтверждения</label>
+                        <div class="form__imp-wrap form__imp-wrap-kod">
+                            <input type="text" class="form__imp form__kod" id="kod3" value="">
+                            <span class="error__msg">Код неправильный</span>
+                        </div>
+                        <button class="form__btn" id="btnStep33">Далее</button>
+                    </div>
+
+                    <div class="form__step33">
+                        <p class="form__cnt form__cnt--200">Карта <span class="grey">999-999-999-999</span> успешно добавлена</p>
+                        <button class="form__btn" id="btnStep34">Далее</button>
+                    </div>
+                    <div class="form__step34">
+                        <img src="img/card.jpg" class="form__img">
+                        <span class="form__lbl" >Подтвердите ваши данные</span>
+                        <div class="form__imp-wrap">
+                            <input type="text" class="form__imp" id="name3" value="Иван">
+                        </div>
+                        <div class="form__imp-wrap">
+                            <input type="email" class="form__imp" id="email3" value="Ivan@mail.ru">
+                        </div>
+                        <button class="form__btn" id="btnStep30">Далее</button>
+                    </div>
+
+
                 </form>
 
             </div>
@@ -120,6 +157,7 @@
     </div>
 
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/maskedinput.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 
 </body>

@@ -77,6 +77,7 @@ body {
     margin-bottom: 6px;
 }
 .form__imp-wrap {
+    position: relative;
     width:100%;
     border: 1px solid #C8C7CC;
     box-sizing: border-box;
@@ -93,6 +94,19 @@ body {
     line-height: normal;
     font-size: 12px;
     color: #000000;
+}
+.form__imp-wrap.error {
+    border-color: #c40b00;
+}
+.error__msg {
+    position: absolute;
+    bottom: -18px;
+    display: none;
+    font-size: 12px;
+    color: #c40b00;
+}
+.form__imp-wrap.error .error__msg {
+    display: block;
 }
 .form__sub {
     display: block;
@@ -176,7 +190,14 @@ body {
 .form__step14,
 .form__step15,
 .form__step16,
-.form__step21 {
+.form__step21,
+.form__step22,
+.form__step23,
+.form__step24,
+.form__step31,
+.form__step32,
+.form__step33,
+.form__step34 {
     display: none;
 }
 .form__step0 {
