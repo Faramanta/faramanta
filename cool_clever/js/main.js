@@ -11,6 +11,13 @@ $(document).ready(function() {
     $(this).attr('placeholder',$(this).data('placeholder'));
   });
 
+  $('input').keydown(function(event){
+    if(event.keyCode == 13){
+      event.preventDefault();
+      return false;
+    }
+  });
+
 
 // есть аккаунт
   $('#btnStep11').on('click', function (e) {
