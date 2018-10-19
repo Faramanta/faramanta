@@ -59,7 +59,6 @@ $(document).ready(function() {
     alert('Ваш код 0234');
     $(this).closest('.form__step21').hide();
     $('.form__step22').show();
-    refresh();
   });
   $('#btnStep23').on('click', function (e) {
     e.preventDefault();
@@ -135,7 +134,7 @@ function refresh1(e) {
   if (document.getElementById) {
     timer.innerHTML = time;
   }
-  inter = setTimeout("refresh1()", 1000);
+  inter = setTimeout("refresh()", 1000);
   // действие, если таймер 00:00
   if (min == '00' && sec == '00') {
     sec = "00";
