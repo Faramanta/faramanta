@@ -2,12 +2,13 @@ $(document).ready(function() {
 
   $("#phone1").mask("+7 (999) 999-9999");
   $("#phone2").mask("+7 (999) 999-9999");
+  $("#cardNum3").mask("999-999-9999");
 
-  $('.form__imp').focus(function(){
+  $('.form__inp').focus(function(){
     $(this).data('placeholder',$(this).attr('placeholder'));
     $(this).attr('placeholder','');
   });
-  $('.form__imp').blur(function(){
+  $('.form__inp').blur(function(){
     $(this).attr('placeholder',$(this).data('placeholder'));
   });
 
@@ -30,6 +31,7 @@ $(document).ready(function() {
     alert('Ваш код 0234');
     $(this).closest('.form__step11').hide();
     $('.form__step12').show();
+      refresh();
   });
   $('#btnStep13').on('click', function (e) {
     e.preventDefault();
@@ -37,7 +39,7 @@ $(document).ready(function() {
       $(this).closest('.form__step12').hide();
       $('.form__step13').show();
   } else {
-      $(this).closest('.form__step12').find('.form__imp-wrap-kod').addClass('error');
+      $(this).closest('.form__step12').find('.form__inp-wrap-kod').addClass('error');
     }
   });
   $('#btnStep10').on('click', function (e) {
@@ -57,6 +59,7 @@ $(document).ready(function() {
     alert('Ваш код 0234');
     $(this).closest('.form__step21').hide();
     $('.form__step22').show();
+    refresh();
   });
   $('#btnStep23').on('click', function (e) {
     e.preventDefault();
@@ -64,7 +67,7 @@ $(document).ready(function() {
       $(this).closest('.form__step22').hide();
       $('.form__step23').show();
     } else {
-      $(this).closest('.form__step22').find('.form__imp-wrap-kod').addClass('error');
+      $(this).closest('.form__step22').find('.form__inp-wrap-kod').addClass('error');
     }
   });
   $('#btnStep20').on('click', function (e) {
@@ -81,18 +84,13 @@ $(document).ready(function() {
   });
   $('#btnStep32').on('click', function (e) {
     e.preventDefault();
-    alert('Ваш код 0234');
     $(this).closest('.form__step31').hide();
     $('.form__step32').show();
   });
   $('#btnStep33').on('click', function (e) {
     e.preventDefault();
-    if ($(this).closest('.form__step32').find('.form__kod').val() == '0234') {
       $(this).closest('.form__step32').hide();
       $('.form__step33').show();
-    } else {
-      $(this).closest('.form__step32').find('.form__imp-wrap-kod').addClass('error');
-    }
   });
   $('#btnStep34').on('click', function (e) {
     e.preventDefault();
@@ -111,4 +109,40 @@ $(document).ready(function() {
     $('.form__step23').show();
   });
 
+
+
 });
+
+function refresh1(e) {
+  alert('Ваш код 0234!');
+  this.classList.remove('show');
+  timer.classList.add('show');
+  e.preventDefault();
+  sec = 30;
+  // выставляем минуты
+  min = 00;
+  sec--;
+  if(sec == -01){
+    sec = 59;
+    min = min - 1;
+  } else {
+    min = min;
+  }
+  if(sec <= 9) {
+    sec = "0" + sec;
+  }
+  time = (min <= 9 ? "0" + min : min) + ":" + sec;
+  if (document.getElementById) {
+    timer.innerHTML = time;
+  }
+  inter = setTimeout("refresh1()", 1000);
+  // действие, если таймер 00:00
+  if (min == '00' && sec == '00') {
+    sec = "00";
+
+    clearInterval(inter);
+    var tut = document.getElementById('tut');
+    tut.classList.add('show');
+    timer.classList.remove('show');
+  }
+}

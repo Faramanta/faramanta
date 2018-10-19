@@ -10,155 +10,200 @@
 
     <title>CoolClever</title>
 </head>
-<body>
-    <div class="page">
-        <header class="header">
-            <div class="header__topbar">
-                <div class="header__container">
-                    <img src="img/header1.png" class="header__img">
+<body >
+<div class="page">
+    <header class="header">
+        <div class="header__topbar">
+            <div class="header__container">
+                <img src="img/header1.png" class="header__img">
+            </div>
+        </div>
+        <div class="header__head" >
+            <div class="header__container">
+                <img src="img/header2.png" class="header__img">
+            </div>
+        </div>
+        <div class="header__menu">
+            <div class="header__container">
+                <img src="img/header3.png" class="header__img">
+            </div>
+        </div>
+    </header>
+
+    <div class="main">
+        <div class="container">
+            <h2 class="ttl2">Вход в личный кабинет</h2>
+            <form class="form">
+                <div class="form__step0">
+                    <button class="form__btn" id="btnStep11">Есть аккаунт</button>
+                    <button class="form__btn" id="btnStep21">Нет аккаунта</button>
                 </div>
-            </div>
-            <div class="header__head" >
-                <div class="header__container">
-                    <img src="img/header2.png" class="header__img">
+
+                <div class="form__step11">
+                    <label class="form__lbl" for="phone1">Номер телефона</label>
+                    <div class="form__inp-wrap">
+                        <input type="tel" class="form__inp" id="phone1" placeholder="+7 (999) 999-99-99">
+                    </div>
+                    <p class="form__sub">Нажимая кнопку «Далее», вы принимаете условия <a href="#" class="link">Пользовательского соглашения</a></p>
+                    <button class="form__btn" id="btnStep12">Далее</button>
                 </div>
-            </div>
-            <div class="header__menu">
-                <div class="header__container">
-                    <img src="img/header3.png" class="header__img">
+
+                <div class="form__step12">
+                    <label class="form__lbl" for="kod1">Код подтверждения</label>
+                    <div class="form__inp-wrap form__inp-wrap-kod">
+                        <input type="text" class="form__inp form__kod" id="kod1" value="">
+                        <span class="error__msg">Код неправильный</span>
+                    </div>
+                    <div class="form__timer">
+                        <span id="timer" class="timer show"></span>
+                        <button class="form__btn" id="www" >Новый код</button>
+                    </div>
+                    <button class="form__btn" id="btnStep13">Далее</button>
                 </div>
-            </div>
-        </header>
 
-        <div class="main">
-            <div class="container">
-                <h2 class="ttl2">Вход в личный кабинет</h2>
-                <form class="form">
-                    <div class="form__step0">
-                        <button class="form__btn" id="btnStep11">Есть аккаунт</button>
-                        <button class="form__btn" id="btnStep21">Нет аккаунта</button>
+                <div class="form__step13">
+                    <img src="img/card.jpg" class="form__img">
+                    <span class="form__lbl" >Подтвердите ваши данные</span>
+                    <div class="form__inp-wrap">
+                        <input type="text" class="form__inp" id="name1" value="Иван">
                     </div>
-
-                    <div class="form__step11">
-                        <label class="form__lbl" for="phone1">Номер телефона</label>
-                        <div class="form__imp-wrap">
-                            <input type="tel" class="form__imp" id="phone1" placeholder="+7 (999) 999-99-99">
-                        </div>
-                        <p class="form__sub">Нажимая кнопку «Далее», вы принимаете условия <a href="#" class="link">Пользовательского соглашения</a></p>
-                        <button class="form__btn" id="btnStep12">Далее</button>
+                    <div class="form__inp-wrap">
+                        <input type="email" class="form__inp" id="email1" value="Ivan@mail.ru">
                     </div>
+                    <button class="form__btn" id="btnStep10">Далее</button>
+                </div>
 
-                    <div class="form__step12">
-                        <label class="form__lbl" for="kod1">Код подтверждения</label>
-                        <div class="form__imp-wrap form__imp-wrap-kod">
-                            <input type="text" class="form__imp form__kod" id="kod1" value="">
-                            <span class="error__msg">Код неправильный</span>
-                        </div>
-                        <button class="form__btn" id="btnStep13">Далее</button>
+
+
+                <div class="form__step21">
+                    <label class="form__lbl" for="phone2">Номер телефона</label>
+                    <div class="form__inp-wrap">
+                        <input type="tel" class="form__inp" id="phone2" placeholder="+7 (999) 999-99-99">
                     </div>
+                    <p class="form__sub">Нажимая кнопку «Далее», вы принимаете условия <a href="#" class="link">Пользовательского соглашения</a></p>
+                    <button class="form__btn" id="btnStep22">Далее</button>
+                </div>
 
-                    <div class="form__step13">
-                        <img src="img/card.jpg" class="form__img">
-                        <span class="form__lbl" >Подтвердите ваши данные</span>
-                        <div class="form__imp-wrap">
-                            <input type="text" class="form__imp" id="name1" value="Иван">
-                        </div>
-                        <div class="form__imp-wrap">
-                            <input type="email" class="form__imp" id="email1" value="Ivan@mail.ru">
-                        </div>
-                        <button class="form__btn" id="btnStep10">Далее</button>
+                <div class="form__step22">
+                    <label class="form__lbl" for="kod2">Код подтверждения</label>
+                    <div class="form__inp-wrap form__inp-wrap-kod">
+                        <input type="text" class="form__inp form__kod" id="kod2" value="">
+                        <span class="error__msg">Код неправильный</span>
                     </div>
+                    <button class="form__btn" id="btnStep23">Далее</button>
+                </div>
 
-
-
-                    <div class="form__step21">
-                        <label class="form__lbl" for="phone2">Номер телефона</label>
-                        <div class="form__imp-wrap">
-                            <input type="tel" class="form__imp" id="phone2" placeholder="+7 (999) 999-99-99">
-                        </div>
-                        <p class="form__sub">Нажимая кнопку «Далее», вы принимаете условия <a href="#" class="link">Пользовательского соглашения</a></p>
-                        <button class="form__btn" id="btnStep22">Далее</button>
+                <div class="form__step23">
+                    <p class="form__cnt form__cnt--100 form__cnt--17">Если у вас есть карта <a href="#" class="form__link" id="btnStep31">добавьте ее</a>
+                        <span class="form__cnt--14 grey block">Не беспокойтесь, вы можете сделать это позднее.</span>
+                    </p>
+                    <span class="form__lbl" >Укажите ваши данные</span>
+                    <div class="form__inp-wrap">
+                        <input type="text" class="form__inp" id="name2" placeholder="Имя*">
                     </div>
-
-                    <div class="form__step22">
-                        <label class="form__lbl" for="kod2">Код подтверждения</label>
-                        <div class="form__imp-wrap form__imp-wrap-kod">
-                            <input type="text" class="form__imp form__kod" id="kod2" value="">
-                            <span class="error__msg">Код неправильный</span>
-                        </div>
-                        <button class="form__btn" id="btnStep23">Далее</button>
+                    <div class="form__inp-wrap">
+                        <input type="email" class="form__inp" id="email2" placeholder="Email">
                     </div>
+                    <button class="form__btn" id="btnStep20">Далее</button>
+                </div>
 
-                    <div class="form__step23">
-                        <p class="form__cnt form__cnt--100 form__cnt--17">Если у вас есть карта <a href="#" class="form__link" id="btnStep31">добавьте ее</a>
-                            <span class="form__cnt--14 grey block">Не беспокойтесь, вы можете сделать это позднее.</span>
-                        </p>
-                        <span class="form__lbl" >Укажите ваши данные</span>
-                        <div class="form__imp-wrap">
-                            <input type="text" class="form__imp" id="name2" placeholder="Имя*">
-                        </div>
-                        <div class="form__imp-wrap">
-                            <input type="email" class="form__imp" id="email2" placeholder="Email">
-                        </div>
-                        <button class="form__btn" id="btnStep20">Далее</button>
+
+
+                <div class="form__step31">
+                    <a href="#" class="form__link-back" id="linkBack13">
+                        <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path opacity="0.5" d="M7 0.5L1 6.5L7 12.5" stroke="black"/>
+                        </svg>
+                        <span>Назад</span>
+                    </a>
+                    <p class="form__cnt">Все КеГЛи на карте будут автоматически переведены на ваш аккаунт</p>
+                    <div class="form__inp-wrap">
+                        <input type="text" class="form__inp" id="cardNum3" placeholder="Номер карты">
                     </div>
+                    <button class="form__btn" id="btnStep32">Далее</button>
+                </div>
 
-
-
-                    <div class="form__step31">
-                        <a href="#" class="form__link-back" id="linkBack13">
-                            <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path opacity="0.5" d="M7 0.5L1 6.5L7 12.5" stroke="black"/>
-                            </svg>
-                            <span>Назад</span>
-                        </a>
-                        <p class="form__cnt">Все КеГЛи на карте будут автоматически переведены на ваш аккаунт</p>
-                        <div class="form__imp-wrap">
-                            <input type="text" class="form__imp" id="cardNum3" placeholder="Номер карты">
-                        </div>
-                        <button class="form__btn" id="btnStep32">Далее</button>
+                <div class="form__step33">
+                    <p class="form__cnt form__cnt--200">Карта <span class="grey">999-999-999-999</span> успешно добавлена</p>
+                    <button class="form__btn" id="btnStep34">Далее</button>
+                </div>
+                <div class="form__step34">
+                    <img src="img/card.jpg" class="form__img">
+                    <span class="form__lbl" >Подтвердите ваши данные</span>
+                    <div class="form__inp-wrap">
+                        <input type="text" class="form__inp" id="name3" value="Иван">
                     </div>
-
-                    <div class="form__step32">
-                        <label class="form__lbl" for="kod3">Код подтверждения</label>
-                        <div class="form__imp-wrap form__imp-wrap-kod">
-                            <input type="text" class="form__imp form__kod" id="kod3" value="">
-                            <span class="error__msg">Код неправильный</span>
-                        </div>
-                        <button class="form__btn" id="btnStep33">Далее</button>
+                    <div class="form__inp-wrap">
+                        <input type="email" class="form__inp" id="email3" value="Ivan@mail.ru">
                     </div>
-
-                    <div class="form__step33">
-                        <p class="form__cnt form__cnt--200">Карта <span class="grey">999-999-999-999</span> успешно добавлена</p>
-                        <button class="form__btn" id="btnStep34">Далее</button>
-                    </div>
-                    <div class="form__step34">
-                        <img src="img/card.jpg" class="form__img">
-                        <span class="form__lbl" >Подтвердите ваши данные</span>
-                        <div class="form__imp-wrap">
-                            <input type="text" class="form__imp" id="name3" value="Иван">
-                        </div>
-                        <div class="form__imp-wrap">
-                            <input type="email" class="form__imp" id="email3" value="Ivan@mail.ru">
-                        </div>
-                        <button class="form__btn" id="btnStep30">Далее</button>
-                    </div>
+                    <button class="form__btn" id="btnStep30">Далее</button>
+                </div>
 
 
-                </form>
-
-            </div>
+            </form>
 
         </div>
 
-        <footer class="footer">
-
-        </footer>
     </div>
 
-    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="js/maskedinput.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+    <footer class="footer">
+
+    </footer>
+</div>
+
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/maskedinput.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+<script language="JavaScript" type="text/javascript">
+  <!--
+  // выставляем секунды
+  var sec = 30;
+  // выставляем минуты
+  var min = 00;
+
+  function refresh() {
+    sec--;
+    if(sec == -01){
+      sec = 59;
+      min = min - 1;
+    } else {
+      min = min;
+    }
+    if(sec <= 9) {
+      sec = "0" + sec;
+    }
+    time = (min <= 9 ? "0" + min : min) + ":" + sec;
+    if (document.getElementById) {
+      timer.innerHTML = time;
+    }
+    inter = setTimeout("refresh()", 1000);
+    // действие, если таймер 00:00
+    if (min == '00' && sec == '00') {
+      sec = "00";
+
+        /* выводим сообщение в элемент с id="tut", например <div id="tut"></div> */
+//      tut.innerHTML="Время действия кода истекло";
+
+        /* либо модальное окно */
+//      alert('Таймер завершил свою работу!');
+      clearInterval(inter);
+        /* либо переход на какой-то адрес */
+      //window.location='http://www.net-f.ru/';
+
+        /* либо любой другой Ваш код */
+        var tut = document.getElementById('www');
+        tut.classList.add('show');
+      timer.classList.remove('show');
+    }
+  }
+
+  var btn = document.getElementById('www');
+  btn.addEventListener('click', refresh1);
+
+
+  //-->
+</script>
 
 </body>
 </html>
