@@ -84,7 +84,7 @@ $(document).ready(function() {
   $('#btnStep32').on('click', function (e) {
     e.preventDefault();
     $(this).closest('.form__step31').hide();
-    $('.form__step32').show();
+    $('.form__step33').show();
   });
   $('#btnStep33').on('click', function (e) {
     e.preventDefault();
@@ -117,7 +117,7 @@ function refresh1(e) {
   this.classList.remove('show');
   timer.classList.add('show');
   e.preventDefault();
-  sec = 30;
+  sec = 5;
   // выставляем минуты
   min = 00;
   sec--;
