@@ -8,7 +8,7 @@ for (var i = 0; i < card.length; i++) {
         if (!(this.closest('.card__block').getAttribute('data-available') === 'disabled')) {
             this.closest('.card__block').classList.toggle('selected');
             if (this.closest('.card__block').classList.contains('selected')) {
-                this.addEventListener('mouseleave', function () {
+                this.closest('.card__block').addEventListener('mouseleave', function () {
                     if (this.closest('.card__block').classList.contains('selected')) {
                         this.closest('.card__block').classList.add('hover');
                     } else {
