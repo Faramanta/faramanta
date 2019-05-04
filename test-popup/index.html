@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/popup.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <title>Тест</title>
+</head>
+<body>
+    <div class="page">
+        <a class="popup__link" href="#popup">Open modal</a>
+
+    </div>
+
+    <div id="popup" class="mfp-hide popup__block">
+        <a class="popup__close" href="#"></a>
+        <h2 class="popup__ttl">Log in</h2>
+
+        <form class="popup__form">
+            <div class="popup__inp-block">
+                <input type="email" class="popup__inp" placeholder="Email">
+            </div>
+            <div class="popup__inp-block">
+                <input type="password" class="popup__inp popup__inp-pass"  placeholder="Password">
+                <button class="popup__pass-btn" id="pass"></button>
+            </div>
+            <button class="popup__btn">Authorise me</button>
+            <div class="popup__link-block">
+                <a href="#" class="popup__in-link">Go to registration form</a>
+                <a href="#" class="popup__in-link">Forgot password?</a>
+            </div>
+        </form>
+    </div>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
